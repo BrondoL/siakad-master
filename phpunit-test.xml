@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" tests="11" assertions="875" errors="0" warnings="0" failures="0" skipped="0" time="0.231777">
+    <testcase name="test_create_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="60" assertions="100" time="0.150333"/>
+    <testcase name="test_get_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="78" assertions="280" time="0.009359"/>
+    <testcase name="test_get_unit_with_id" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="103" assertions="50" time="0.013587"/>
+    <testcase name="test_get_unit_with_wrong_id" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="118" assertions="8" time="0.008714"/>
+    <testcase name="test_detail_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="136" assertions="4" time="0.001455"/>
+    <testcase name="test_wrong_path_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="148" assertions="7" time="0.007164"/>
+    <testcase name="test_get_list_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="166" assertions="280" time="0.006976"/>
+    <testcase name="test_get_detail_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="191" assertions="50" time="0.008296"/>
+    <testcase name="test_update_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="206" assertions="90" time="0.008441"/>
+    <testcase name="test_delete_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="222" assertions="1" time="0.011397"/>
+    <testcase name="test_post_without_body_unit" class="UnitTest" classname="UnitTest" file="/Users/brondol/Applications/siakadcloud/master/tests/UnitTest.php" line="230" assertions="5" time="0.006053"/>
+  </testsuite>
+</testsuites>

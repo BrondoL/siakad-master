@@ -1,0 +1,61 @@
+<?php
+
+namespace App\Schemas;
+
+use Siakad\Schema;
+
+class UnitSchema extends Schema
+{
+	protected static $fields = [
+		'id' => ['type' => 'integer', 'required' => true],
+		'id_pt' => ['type' => 'integer', 'required' => true],
+		'nama_unit' => ['type' => 'string', 'length' => 100, 'required' => true],
+		'nama_unit_en' => ['type' => 'string', 'length' => 100],
+		'nama_singkat' => ['type' => 'string', 'length' => 50],
+		'id_parent' => ['type' => 'integer'],
+		'id_jenjang' => ['type' => 'integer'],
+		'jenis_unit' => ['type' => 'string', 'length' => 1, 'required' => true],
+		'alamat' => ['type' => 'string', 'length' => 100],
+		'telepon' => ['type' => 'string', 'length' => 20],
+		'email' => ['type' => 'string', 'length' => 100],
+		'website' => ['type' => 'string', 'length' => 100],
+		'gelar' => ['type' => 'string', 'length' => 10],
+		'gelar_en' => ['type' => 'string', 'length' => 10],
+		'deskripsi_gelar' => ['type' => 'string', 'length' => 100],
+		'deskripsi_gelar_en' => ['type' => 'string', 'length' => 100],
+		'akreditasi' => ['type' => 'string', 'length' => 2],
+		'sk_akreditasi' => ['type' => 'string', 'length' => 100],
+		'tgl_akreditasi' => ['type' => 'date'],
+		'tgl_sk_pendirian' => ['type' => 'date'],
+		'id_periode_berdiri' => ['type' => 'integer'],
+		'sks_lulus_min' => ['type' => 'integer'],
+		'ipk_lulus_min' => ['type' => 'decimal', 'length' => 3, 'decimal' => 2],
+		'batas_sks_awal' => ['type' => 'integer'],
+		'jumlah_pembimbing' => ['type' => 'integer'],
+		'jumlah_penguji' => ['type' => 'integer'],
+		'id_jenis_ta' => ['type' => 'string', 'length' => 1],
+		'kode_nim' => ['type' => 'string', 'length' => 3],
+		'foto' => ['type' => 'string', 'length' => 100],
+		'keterangan' => ['type' => 'string', 'length' => 5000],
+		'visi' => ['type' => 'string', 'length' => 5000],
+		'misi' => ['type' => 'string', 'length' => 5000],
+		'kompetensi' => ['type' => 'string', 'length' => 5000],
+		'cp' => ['type' => 'string', 'length' => 5000],
+		'is_aktif' => ['type' => 'string', 'length' => 1, 'required' => true, 'default' => '1'],
+		'is_eksternal' => ['type' => 'string', 'length' => 1, 'required' => true, 'default' => '0'],
+		'info_left' => ['type' => 'integer', 'required' => true],
+		'info_right' => ['type' => 'integer', 'required' => true],
+		'created_at' => ['type' => 'datetimetz', 'default' => 'CURRENT_TIMESTAMP'],
+		'created_by' => ['type' => 'integer'],
+		'updated_at' => ['type' => 'datetimetz'],
+		'updated_by' => ['type' => 'integer'],
+		'updated_ip' => ['type' => 'string'],
+		'updated_path' => ['type' => 'string', 'length' => 50],
+		'id_ketua' => ['type' => 'integer'],
+		'id_sekretaris' => ['type' => 'integer'],
+		'id_pembantu_1' => ['type' => 'integer'],
+		'id_pembantu_2' => ['type' => 'integer'],
+		'id_pembantu_3' => ['type' => 'integer'],
+		'id_pembantu_4' => ['type' => 'integer'],
+	];
+}
