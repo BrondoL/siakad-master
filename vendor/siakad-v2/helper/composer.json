@@ -1,0 +1,8 @@
+{
+	"name": "siakad-v2/helper",
+	"autoload": {
+		"psr-4": {
+			"Siakad\\": "src"
+		}
+	}
+}
