@@ -10,7 +10,7 @@ class KotaTest extends TestCase
     private $payload = [
         'kode_kota' => 'JKT',
         'nama_kota' => 'Jakarta',
-        'id_parent' => 1,
+        'id_parent' => 2,
         'level' => '1',
         'kode_iso' => 'jkt',
         'kode_dikti' => 'jkt',

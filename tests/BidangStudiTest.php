@@ -8,10 +8,10 @@ class BidangStudiTest extends TestCase
 {
     private $bidangstudiSchema = ["id", "id_unit", "kode_bidang", "nama_bidang", "nama_bidang_en"];
     private $payload = [
-        'id_unit' => 1,
-        'kode_bidang' => 'ilkom',
-        'nama_bidang' => 'ilmu komputer',
-        'nama_bidang_en' => 'computer science',
+        'id_unit' => 2,
+        'kode_bidang' => 'COM62',
+        'nama_bidang' => 'Pembelajaran Mesin',
+        'nama_bidang_en' => 'Machine Learning',
     ];
 
     public function get_latest_id()

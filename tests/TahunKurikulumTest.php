@@ -8,7 +8,7 @@ class TahunKurikulumTest extends TestCase
 {
     private $tahunkurikulumSchema = ["id", "id_pt", "tahun_kurikulum", "nama_kurikulum", "tgl_awal", "tgl_akhir", "id_periode"];
     private $payload = [
-        'tahun_kurikulum' => '2022',
+        'tahun_kurikulum' => '2021',
         'nama_kurikulum' => 'ganjil',
     ];
 

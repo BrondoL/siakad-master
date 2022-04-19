@@ -8,12 +8,12 @@ class JabatanStrukturalTest extends TestCase
 {
     private $jabatanstrukturalSchema = ["id", "kode_struktural", "nama_struktural", "nama_singkat", "id_parent", "id_pangkat_min", "id_pangkat_max", "kode_eselon", "keterangan", "is_pimpinan", "info_left", "info_right"];
     private $payload = [
-        'kode_struktural' => 'zzz',
+        'kode_struktural' => 'xxx',
         'nama_struktural' => 'zzz',
         'nama_singkat' => 'zzz',
-        'id_parent' => 12,
-        'id_pangkat_min' => 1,
-        'id_pangkat_max' => 1,
+        'id_parent' => 20,
+        'id_pangkat_min' => 5,
+        'id_pangkat_max' => 5,
         'kode_eselon' => 'waw',
         'keterangan' => 'hallo',
         'is_pimpinan' => '1',

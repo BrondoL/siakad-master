@@ -8,7 +8,7 @@ class BidangIlmuTest extends TestCase
 {
     private $bidangilmuSchema = ["id", "kode_bidang", "nama_bidang"];
     private $payload = [
-        'kode_bidang' => 'ilkom',
+        'kode_bidang' => '1',
         'nama_bidang' => 'ilmu komputer',
     ];
 

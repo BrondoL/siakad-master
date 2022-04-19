@@ -19,9 +19,9 @@ class GelombangController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                      @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                      @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class GelombangController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                      @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                      @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class GelombangController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                 @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                 @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                 @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *             )
      *         )
      *     ),
@@ -120,9 +120,9 @@ class GelombangController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                      @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                      @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class GelombangController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                 @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                 @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                 @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *             )
      *         )
      *     ),
@@ -178,9 +178,9 @@ class GelombangController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *                      @OA\Property(property="nama_gelombang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *                      @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -259,10 +259,9 @@ class GelombangController extends Controller
      *     @OA\Schema(
      *         schema="Gelombang",
      *         @OA\Xml(name="Gelombang"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_gelombang", type="integer", example=""),
-     *         @OA\Property(property="nama_gelombang", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="kode_gelombang", type="integer", example="1"),
+     *         @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *     ),
      */
 }
-        

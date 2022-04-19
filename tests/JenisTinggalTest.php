@@ -8,7 +8,7 @@ class JenisTinggalTest extends TestCase
 {
     private $jenistinggalSchema = ["id", "kode_tinggal", "nama_tinggal"];
     private $payload = [
-        'kode_tinggal' => 1,
+        'kode_tinggal' => 2,
         'nama_tinggal' => 'sendiri',
     ];
 

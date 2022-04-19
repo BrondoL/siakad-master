@@ -19,10 +19,10 @@ class PenghasilanOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                      @OA\Property(property="kode_emis", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                      @OA\Property(property="kode_emis", type="string", example="21"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -64,10 +64,10 @@ class PenghasilanOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                      @OA\Property(property="kode_emis", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                      @OA\Property(property="kode_emis", type="string", example="21"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -111,8 +111,8 @@ class PenghasilanOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                 @OA\Property(property="kode_emis", type="string", example=""),
+     *                 @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                 @OA\Property(property="kode_emis", type="string", example="21"),
      *             )
      *         )
      *     ),
@@ -122,10 +122,10 @@ class PenghasilanOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                      @OA\Property(property="kode_emis", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                      @OA\Property(property="kode_emis", type="string", example="21"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -170,8 +170,8 @@ class PenghasilanOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                 @OA\Property(property="kode_emis", type="string", example=""),
+     *                 @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                 @OA\Property(property="kode_emis", type="string", example="21"),
      *             )
      *         )
      *     ),
@@ -181,10 +181,10 @@ class PenghasilanOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *                      @OA\Property(property="kode_emis", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *                      @OA\Property(property="kode_emis", type="string", example="21"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -263,11 +263,10 @@ class PenghasilanOptController extends Controller
      *     @OA\Schema(
      *         schema="Penghasilan opt",
      *         @OA\Xml(name="Penghasilan opt"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="id_pt", type="integer", example=""),
-     *         @OA\Property(property="id_penghasilan", type="integer", example=""),
-     *         @OA\Property(property="kode_emis", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="id_pt", type="integer", example=1),
+     *         @OA\Property(property="id_penghasilan", type="integer", example=1),
+     *         @OA\Property(property="kode_emis", type="string", example="21"),
      *     ),
      */
 }
-        

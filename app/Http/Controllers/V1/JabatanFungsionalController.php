@@ -20,8 +20,8 @@ class JabatanFungsionalController extends Controller
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
      *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                      @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                      @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                      @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -64,8 +64,8 @@ class JabatanFungsionalController extends Controller
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
      *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                      @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                      @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                      @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class JabatanFungsionalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                 @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                 @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                 @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *             )
      *         )
      *     ),
@@ -121,8 +121,8 @@ class JabatanFungsionalController extends Controller
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
      *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                      @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                      @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                      @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class JabatanFungsionalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                 @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                 @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                 @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *             )
      *         )
      *     ),
@@ -179,8 +179,8 @@ class JabatanFungsionalController extends Controller
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
      *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_fungsional", type="string", example=""),
-     *                      @OA\Property(property="nama_fungsional", type="string", example=""),
+     *                      @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *                      @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -260,9 +260,8 @@ class JabatanFungsionalController extends Controller
      *         schema="Jabatan fungsional",
      *         @OA\Xml(name="Jabatan fungsional"),
      *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_fungsional", type="string", example=""),
-     *         @OA\Property(property="nama_fungsional", type="string", example=""),
+     *         @OA\Property(property="kode_fungsional", type="string", example="1"),
+     *         @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *     ),
      */
 }
-        

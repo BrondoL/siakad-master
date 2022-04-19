@@ -8,7 +8,7 @@ class JabatanFungsionalTest extends TestCase
 {
     private $jabatanfungsionalSchema = ["id", "kode_fungsional", "nama_fungsional"];
     private $payload = [
-        'kode_fungsional' => 'xxx',
+        'kode_fungsional' => 'zzz',
         'nama_fungsional' => 'xxx',
     ];
 

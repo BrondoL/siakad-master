@@ -2,6 +2,7 @@
 
 namespace Siakad;
 
+use App\Models\Token;
 use Firebase\JWT\JWT;
 use Illuminate\Auth\GenericUser;
 use Illuminate\Support\Facades\Redis;
@@ -15,6 +16,11 @@ class Access
 
 	public static function getUser($request, $class = null)
 	{
+		// cek jwt isInvalid
+		if (Token::where('token', $request->bearerToken())->exists()) {
+			return null;
+		}
+
 		// cek jwt
 		$jwt = $request->bearerToken();
 

@@ -8,7 +8,7 @@ class SistemKuliahTest extends TestCase
 {
     private $sistemkuliahSchema = ["id", "kode_sistem", "nama_sistem", "keterangan", "is_reguler"];
     private $payload = [
-        'kode_sistem' => 1,
+        'kode_sistem' => 2,
         'nama_sistem' => 'test',
         'keterangan' => 'test',
         'is_reguler' => '1',

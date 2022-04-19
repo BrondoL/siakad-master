@@ -8,7 +8,7 @@ class PeriodeTest extends TestCase
 {
     private $periodeSchema = ["id", "id_pt", "kode_periode", "nama_periode", "nama_singkat", "id_tahun_ajaran", "tgl_awal", "tgl_akhir", "tgl_awal_uts", "tgl_akhir_uts", "tgl_awal_uas", "tgl_akhir_uas", "bulan_awal_tagihan", "bulan_akhir_tagihan", "pertemuan_kuliah", "minimal_absensi", "is_aktif", "id_ketua_ujian"];
     private $payload = [
-        'kode_periode' => '20211',
+        'kode_periode' => '20221',
         'nama_periode' => 'test',
         'nama_singkat' => 'test',
         'id_tahun_ajaran' => 2,

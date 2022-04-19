@@ -19,9 +19,9 @@ class AgamaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_agama", type="integer", example=""),
-     *                      @OA\Property(property="nama_agama", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_agama", type="integer", example=1),
+     *                      @OA\Property(property="nama_agama", type="string", example="Islam"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class AgamaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_agama", type="integer", example=""),
-     *                      @OA\Property(property="nama_agama", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_agama", type="integer", example=1),
+     *                      @OA\Property(property="nama_agama", type="string", example="Islam"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class AgamaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_agama", type="integer", example=""),
-     *                 @OA\Property(property="nama_agama", type="string", example=""),
+     *                 @OA\Property(property="kode_agama", type="integer", example=1),
+     *                 @OA\Property(property="nama_agama", type="string", example="Islam"),
      *             )
      *         )
      *     ),
@@ -120,9 +120,9 @@ class AgamaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_agama", type="integer", example=""),
-     *                      @OA\Property(property="nama_agama", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_agama", type="integer", example=1),
+     *                      @OA\Property(property="nama_agama", type="string", example="Islam"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class AgamaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_agama", type="integer", example=""),
-     *                 @OA\Property(property="nama_agama", type="string", example=""),
+     *                 @OA\Property(property="kode_agama", type="integer", example=1),
+     *                 @OA\Property(property="nama_agama", type="string", example="Islam"),
      *             )
      *         )
      *     ),
@@ -178,9 +178,9 @@ class AgamaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_agama", type="integer", example=""),
-     *                      @OA\Property(property="nama_agama", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_agama", type="integer", example=1),
+     *                      @OA\Property(property="nama_agama", type="string", example="Islam"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -259,9 +259,9 @@ class AgamaController extends Controller
      *     @OA\Schema(
      *         schema="Agama",
      *         @OA\Xml(name="Agama"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_agama", type="integer", example=""),
-     *         @OA\Property(property="nama_agama", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="kode_agama", type="integer", example=1),
+     *         @OA\Property(property="nama_agama", type="string", example="Islam"),
      *     ),
      */
 }

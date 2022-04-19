@@ -19,9 +19,9 @@ class JenisTinggalController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                      @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                      @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class JenisTinggalController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                      @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                      @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class JenisTinggalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                 @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                 @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                 @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *             )
      *         )
      *     ),
@@ -120,9 +120,9 @@ class JenisTinggalController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                      @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                      @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class JenisTinggalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                 @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                 @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                 @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *             )
      *         )
      *     ),
@@ -178,9 +178,9 @@ class JenisTinggalController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *                      @OA\Property(property="nama_tinggal", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *                      @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -259,10 +259,9 @@ class JenisTinggalController extends Controller
      *     @OA\Schema(
      *         schema="Jenis tinggal",
      *         @OA\Xml(name="Jenis tinggal"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_tinggal", type="integer", example=""),
-     *         @OA\Property(property="nama_tinggal", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="kode_tinggal", type="integer", example=1),
+     *         @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *     ),
      */
 }
-        

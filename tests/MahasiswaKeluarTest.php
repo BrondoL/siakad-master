@@ -8,7 +8,7 @@ class MahasiswaKeluarTest extends TestCase
 {
     private $mahasiswakeluarSchema = ["id", "id_mahasiswa_pt", "id_periode", "id_status", "tgl_sk", "no_sk"];
     private $payload = [
-        'id_mahasiswa_pt' => 3,
+        'id_mahasiswa_pt' => 8,
         'id_periode' => 8,
         'id_status' => 1,
         'tgl_sk' => '2022-05-10',

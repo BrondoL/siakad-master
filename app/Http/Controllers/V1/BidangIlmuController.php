@@ -19,9 +19,9 @@ class BidangIlmuController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_bidang", type="string", example=""),
-     *                      @OA\Property(property="nama_bidang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                      @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class BidangIlmuController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_bidang", type="string", example=""),
-     *                      @OA\Property(property="nama_bidang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                      @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class BidangIlmuController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_bidang", type="string", example=""),
-     *                 @OA\Property(property="nama_bidang", type="string", example=""),
+     *                 @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                 @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *             )
      *         )
      *     ),
@@ -120,9 +120,9 @@ class BidangIlmuController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_bidang", type="string", example=""),
-     *                      @OA\Property(property="nama_bidang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                      @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class BidangIlmuController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_bidang", type="string", example=""),
-     *                 @OA\Property(property="nama_bidang", type="string", example=""),
+     *                 @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                 @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *             )
      *         )
      *     ),
@@ -178,9 +178,9 @@ class BidangIlmuController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_bidang", type="string", example=""),
-     *                      @OA\Property(property="nama_bidang", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *                      @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -259,10 +259,9 @@ class BidangIlmuController extends Controller
      *     @OA\Schema(
      *         schema="Bidang ilmu",
      *         @OA\Xml(name="Bidang ilmu"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_bidang", type="string", example=""),
-     *         @OA\Property(property="nama_bidang", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="kode_bidang", type="string", example="SI"),
+     *         @OA\Property(property="nama_bidang", type="string", example="Sistem Informasi"),
      *     ),
      */
 }
-        

@@ -9,7 +9,7 @@ class UniversitasProdiTest extends TestCase
     private $universitasprodiSchema = ["id", "id_universitas", "kode_prodi", "nama_prodi", "id_jenjang", "alamat", "telepon"];
     private $payload = [
         'id_universitas' => 2,
-        'kode_prodi' => '1',
+        'kode_prodi' => '2',
         'nama_prodi' => 'ilmu komputer',
         'id_jenjang' => 1,
         'alamat' => 'jl. prof. dr. Soepomo',

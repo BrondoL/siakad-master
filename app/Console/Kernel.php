@@ -15,6 +15,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         \Siakad\Commands\MakeAllCommand::class,
         \App\Console\Commands\MakeTestCommand::class,
+        \App\Console\Commands\MakeLoadTestCommand::class,
         \App\Console\Commands\MakeDocsCommand::class,
     ];
 

@@ -19,9 +19,9 @@ class StatusMahasiswaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_status", type="string", example=""),
-     *                      @OA\Property(property="nama_status", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_status", type="string", example="D"),
+     *                      @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class StatusMahasiswaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_status", type="string", example=""),
-     *                      @OA\Property(property="nama_status", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_status", type="string", example="D"),
+     *                      @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,8 +109,8 @@ class StatusMahasiswaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_status", type="string", example=""),
-     *                 @OA\Property(property="nama_status", type="string", example=""),
+     *                 @OA\Property(property="kode_status", type="string", example="D"),
+     *                 @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *             )
      *         )
      *     ),
@@ -120,9 +120,9 @@ class StatusMahasiswaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_status", type="string", example=""),
-     *                      @OA\Property(property="nama_status", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_status", type="string", example="D"),
+     *                      @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -167,8 +167,8 @@ class StatusMahasiswaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_status", type="string", example=""),
-     *                 @OA\Property(property="nama_status", type="string", example=""),
+     *                 @OA\Property(property="kode_status", type="string", example="D"),
+     *                 @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *             )
      *         )
      *     ),
@@ -178,9 +178,9 @@ class StatusMahasiswaController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="kode_status", type="string", example=""),
-     *                      @OA\Property(property="nama_status", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="kode_status", type="string", example="D"),
+     *                      @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -259,10 +259,9 @@ class StatusMahasiswaController extends Controller
      *     @OA\Schema(
      *         schema="Status mahasiswa",
      *         @OA\Xml(name="Status mahasiswa"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="kode_status", type="string", example=""),
-     *         @OA\Property(property="nama_status", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="kode_status", type="string", example="D"),
+     *         @OA\Property(property="nama_status", type="string", example="Drop Out / Dikeluarkan"),
      *     ),
      */
 }
-        

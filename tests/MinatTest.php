@@ -1,14 +1,12 @@
 <?php
 
-use Laravel\Lumen\Testing\DatabaseMigrations;
-use Laravel\Lumen\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\DB;
 
 class MinatTest extends TestCase
 {
     private $minatSchema = ["id", "nama_minat"];
     private $payload = [
-        'nama_minat' => 'basket',
+        'nama_minat' => 'futsal',
     ];
 
     public function get_latest_id()
@@ -197,6 +195,26 @@ class MinatTest extends TestCase
                 "code",
                 "message",
                 "validation",
+            ]
+        ]);
+    }
+
+    // Validasi Token
+
+    public function test_get_with_invalid_token()
+    {
+        $response = $this->json("GET", "v1/minat", [], ["HTTP_Authorization" => "Bearer " . $this->invalidToken]);
+        $response->seeStatusCode(401);
+        $response->seeJsonStructure([
+            "error" => [
+                "code",
+                "message",
+            ],
+            "debug" => [
+                "*" => [
+                    "query",
+                    "time"
+                ]
             ]
         ]);
     }

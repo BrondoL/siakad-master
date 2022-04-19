@@ -19,9 +19,9 @@ class BidangIlmuPtController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_bidang", type="integer", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_bidang", type="integer", example=1),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -63,9 +63,9 @@ class BidangIlmuPtController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_bidang", type="integer", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_bidang", type="integer", example=1),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -109,7 +109,7 @@ class BidangIlmuPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_bidang", type="integer", example=""),
+     *                 @OA\Property(property="id_bidang", type="integer", example=1),
      *             )
      *         )
      *     ),
@@ -119,9 +119,9 @@ class BidangIlmuPtController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_bidang", type="integer", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_bidang", type="integer", example=1),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -166,7 +166,7 @@ class BidangIlmuPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_bidang", type="integer", example=""),
+     *                 @OA\Property(property="id_bidang", type="integer", example=1),
      *             )
      *         )
      *     ),
@@ -176,9 +176,9 @@ class BidangIlmuPtController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_bidang", type="integer", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_bidang", type="integer", example=1),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -257,10 +257,9 @@ class BidangIlmuPtController extends Controller
      *     @OA\Schema(
      *         schema="Bidang ilmu pt",
      *         @OA\Xml(name="Bidang ilmu pt"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="id_pt", type="integer", example=""),
-     *         @OA\Property(property="id_bidang", type="integer", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="id_pt", type="integer", example=1),
+     *         @OA\Property(property="id_bidang", type="integer", example=1),
      *     ),
      */
 }
-        

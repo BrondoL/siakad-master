@@ -17,7 +17,7 @@ class MahasiswaPtTest extends TestCase
         'id_gelombang' => 3,
         'id_sistem' => 2,
         'id_kelas' => 2,
-        'id_bidang' => 2,
+        'id_bidang' => 3,
         'id_periode_akhir' => 8,
         'email_kampus' => 'nabil@students.unila.ac.id',
         'tgl_daftar' => '2018-07-10',

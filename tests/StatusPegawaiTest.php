@@ -8,7 +8,7 @@ class StatusPegawaiTest extends TestCase
 {
     private $statuspegawaiSchema = ["id", "kode_status", "nama_status", "is_keluar"];
     private $payload = [
-        'kode_status' => '1',
+        'kode_status' => '9',
         'nama_status' => 'dosen',
         'is_keluar' => '1',
     ];

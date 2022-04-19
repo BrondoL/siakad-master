@@ -8,7 +8,7 @@ class TahunAjaranTest extends TestCase
 {
     private $tahunajaranSchema = ["id", "id_pt", "tahun_ajaran", "nama_tahun_ajaran"];
     private $payload = [
-        'tahun_ajaran' => '2020',
+        'tahun_ajaran' => '2022',
         'nama_tahun_ajaran' => 'ganjil',
     ];
 

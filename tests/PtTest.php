@@ -8,7 +8,7 @@ class PtTest extends TestCase
 {
     private $ptSchema = ["id", "kode_pt", "nama_pt", "is_fakultas", "is_jurusan", "id_yayasan"];
     private $payload = [
-        'kode_pt' => '3',
+        'kode_pt' => 'UNBIL',
         'nama_pt' => 'Universitas Nabil',
         'is_fakultas' => "1",
         'is_jurusan' => "1",

@@ -19,10 +19,10 @@ class KelasPerkuliahanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="kode_kelas", type="string", example=""),
-     *                      @OA\Property(property="nama_kelas", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                      @OA\Property(property="nama_kelas", type="string", example="A"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -64,10 +64,10 @@ class KelasPerkuliahanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="kode_kelas", type="string", example=""),
-     *                      @OA\Property(property="nama_kelas", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                      @OA\Property(property="nama_kelas", type="string", example="A"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -111,8 +111,8 @@ class KelasPerkuliahanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_kelas", type="string", example=""),
-     *                 @OA\Property(property="nama_kelas", type="string", example=""),
+     *                 @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                 @OA\Property(property="nama_kelas", type="string", example="A"),
      *             )
      *         )
      *     ),
@@ -122,10 +122,10 @@ class KelasPerkuliahanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="kode_kelas", type="string", example=""),
-     *                      @OA\Property(property="nama_kelas", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                      @OA\Property(property="nama_kelas", type="string", example="A"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -170,8 +170,8 @@ class KelasPerkuliahanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="kode_kelas", type="string", example=""),
-     *                 @OA\Property(property="nama_kelas", type="string", example=""),
+     *                 @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                 @OA\Property(property="nama_kelas", type="string", example="A"),
      *             )
      *         )
      *     ),
@@ -181,10 +181,10 @@ class KelasPerkuliahanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="kode_kelas", type="string", example=""),
-     *                      @OA\Property(property="nama_kelas", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="kode_kelas", type="string", example="1"),
+     *                      @OA\Property(property="nama_kelas", type="string", example="A"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -263,11 +263,10 @@ class KelasPerkuliahanController extends Controller
      *     @OA\Schema(
      *         schema="Kelas perkuliahan",
      *         @OA\Xml(name="Kelas perkuliahan"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="id_pt", type="integer", example=""),
-     *         @OA\Property(property="kode_kelas", type="string", example=""),
-     *         @OA\Property(property="nama_kelas", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="id_pt", type="integer", example=1),
+     *         @OA\Property(property="kode_kelas", type="string", example="1"),
+     *         @OA\Property(property="nama_kelas", type="string", example="A"),
      *     ),
      */
 }
-        

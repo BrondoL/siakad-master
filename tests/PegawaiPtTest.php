@@ -18,7 +18,7 @@ class PegawaiPtTest extends TestCase
         'id_jenjang' => 1,
         'id_pangkat' => 5,
         'id_fungsional' => 2,
-        'id_struktural' => 12,
+        'id_struktural' => 20,
         'id_jenis' => 2,
         'id_status' => 2,
         'id_bidang' => 2,

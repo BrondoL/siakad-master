@@ -19,8 +19,8 @@ class AlmamaterController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_almamater", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_almamater", type="string", example="L"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -62,8 +62,8 @@ class AlmamaterController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_almamater", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_almamater", type="string", example="L"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -107,7 +107,7 @@ class AlmamaterController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="nama_almamater", type="string", example=""),
+     *                 @OA\Property(property="nama_almamater", type="string", example="L"),
      *             )
      *         )
      *     ),
@@ -117,8 +117,8 @@ class AlmamaterController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_almamater", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_almamater", type="string", example="L"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -163,7 +163,7 @@ class AlmamaterController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="nama_almamater", type="string", example=""),
+     *                 @OA\Property(property="nama_almamater", type="string", example="L"),
      *             )
      *         )
      *     ),
@@ -173,8 +173,8 @@ class AlmamaterController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_almamater", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_almamater", type="string", example="L"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -253,8 +253,8 @@ class AlmamaterController extends Controller
      *     @OA\Schema(
      *         schema="Almamater",
      *         @OA\Xml(name="Almamater"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="nama_almamater", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="nama_almamater", type="string", example="L"),
      *     ),
      */
 }

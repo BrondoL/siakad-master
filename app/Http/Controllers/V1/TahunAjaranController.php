@@ -19,10 +19,10 @@ class TahunAjaranController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -64,10 +64,10 @@ class TahunAjaranController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -111,8 +111,8 @@ class TahunAjaranController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                 @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                 @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                 @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *             )
      *         )
      *     ),
@@ -122,10 +122,10 @@ class TahunAjaranController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -170,8 +170,8 @@ class TahunAjaranController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                 @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                 @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                 @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *             )
      *         )
      *     ),
@@ -181,10 +181,10 @@ class TahunAjaranController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *                      @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -263,11 +263,10 @@ class TahunAjaranController extends Controller
      *     @OA\Schema(
      *         schema="Tahun ajaran",
      *         @OA\Xml(name="Tahun ajaran"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="id_pt", type="integer", example=""),
-     *         @OA\Property(property="tahun_ajaran", type="string", example=""),
-     *         @OA\Property(property="nama_tahun_ajaran", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="id_pt", type="integer", example=1),
+     *         @OA\Property(property="tahun_ajaran", type="string", example="2022"),
+     *         @OA\Property(property="nama_tahun_ajaran", type="string", example="2022/2023"),
      *     ),
      */
 }
-        

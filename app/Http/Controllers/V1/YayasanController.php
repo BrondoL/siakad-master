@@ -19,8 +19,8 @@ class YayasanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -62,8 +62,8 @@ class YayasanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -107,7 +107,7 @@ class YayasanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                 @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *             )
      *         )
      *     ),
@@ -117,8 +117,8 @@ class YayasanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -163,7 +163,7 @@ class YayasanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                 @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *             )
      *         )
      *     ),
@@ -173,8 +173,8 @@ class YayasanController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="nama_yayasan", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -253,9 +253,8 @@ class YayasanController extends Controller
      *     @OA\Schema(
      *         schema="Yayasan",
      *         @OA\Xml(name="Yayasan"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="nama_yayasan", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *     ),
      */
 }
-        

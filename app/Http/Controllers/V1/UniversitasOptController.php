@@ -19,10 +19,10 @@ class UniversitasOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_universitas", type="integer", example=""),
-     *                      @OA\Property(property="is_pmb", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_universitas", type="integer", example=1),
+     *                      @OA\Property(property="is_pmb", type="string", example="1"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -64,10 +64,10 @@ class UniversitasOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_universitas", type="integer", example=""),
-     *                      @OA\Property(property="is_pmb", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_universitas", type="integer", example=1),
+     *                      @OA\Property(property="is_pmb", type="string", example="1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -111,8 +111,8 @@ class UniversitasOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_universitas", type="integer", example=""),
-     *                 @OA\Property(property="is_pmb", type="string", example=""),
+     *                 @OA\Property(property="id_universitas", type="integer", example=1),
+     *                 @OA\Property(property="is_pmb", type="string", example="1"),
      *             )
      *         )
      *     ),
@@ -122,10 +122,10 @@ class UniversitasOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_universitas", type="integer", example=""),
-     *                      @OA\Property(property="is_pmb", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_universitas", type="integer", example=1),
+     *                      @OA\Property(property="is_pmb", type="string", example="1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -170,8 +170,8 @@ class UniversitasOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
-     *                 @OA\Property(property="id_universitas", type="integer", example=""),
-     *                 @OA\Property(property="is_pmb", type="string", example=""),
+     *                 @OA\Property(property="id_universitas", type="integer", example=1),
+     *                 @OA\Property(property="is_pmb", type="string", example="1"),
      *             )
      *         )
      *     ),
@@ -181,10 +181,10 @@ class UniversitasOptController extends Controller
      *          @OA\JsonContent(type="object",
      *              @OA\Property(property="data", type="array",
      *                  @OA\Items(type="object",
-     *                      @OA\Property(property="id", type="integer", example=""),
-     *                      @OA\Property(property="id_pt", type="integer", example=""),
-     *                      @OA\Property(property="id_universitas", type="integer", example=""),
-     *                      @OA\Property(property="is_pmb", type="string", example=""),
+     *                      @OA\Property(property="id", type="integer", example=1),
+     *                      @OA\Property(property="id_pt", type="integer", example=1),
+     *                      @OA\Property(property="id_universitas", type="integer", example=1),
+     *                      @OA\Property(property="is_pmb", type="string", example="1"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -263,11 +263,10 @@ class UniversitasOptController extends Controller
      *     @OA\Schema(
      *         schema="Universitas opt",
      *         @OA\Xml(name="Universitas opt"),
-     *         @OA\Property(property="id", type="integer", example=""),
-     *         @OA\Property(property="id_pt", type="integer", example=""),
-     *         @OA\Property(property="id_universitas", type="integer", example=""),
-     *         @OA\Property(property="is_pmb", type="string", example=""),
+     *         @OA\Property(property="id", type="integer", example=1),
+     *         @OA\Property(property="id_pt", type="integer", example=1),
+     *         @OA\Property(property="id_universitas", type="integer", example=1),
+     *         @OA\Property(property="is_pmb", type="string", example="1"),
      *     ),
      */
 }
-        

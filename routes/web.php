@@ -26,6 +26,7 @@ $router->group(['middleware' => 'auth.service'], function () use ($rver) {
 
 // token role
 $router->group(['middleware' => 'auth.role'], function () use ($rver) {
+    $rver->post('token/invalidate');
     $rver->getSelect();
     $rver->default();
 });

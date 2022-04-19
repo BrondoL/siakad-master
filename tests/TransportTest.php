@@ -8,7 +8,7 @@ class TransportTest extends TestCase
 {
     private $transportSchema = ["id", "kode_transport", "nama_transport"];
     private $payload = [
-        'kode_transport' => 1,
+        'kode_transport' => 2,
         'nama_transport' => 'angkutan umum',
     ];
 

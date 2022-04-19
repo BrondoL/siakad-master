@@ -8,7 +8,7 @@ class StatusMahasiswaTest extends TestCase
 {
     private $statusmahasiswaSchema = ["id", "kode_status", "nama_status"];
     private $payload = [
-        'kode_status' => '9',
+        'kode_status' => 'M',
         'nama_status' => 'Mager',
     ];
 
