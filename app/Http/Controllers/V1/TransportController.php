@@ -109,6 +109,7 @@ class TransportController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_transport", "nama_transport"},
      *                 @OA\Property(property="kode_transport", type="integer", example=1),
      *                 @OA\Property(property="nama_transport", type="string", example="Angkutan Umum"),
      *             )
@@ -259,6 +260,7 @@ class TransportController extends Controller
      *     @OA\Schema(
      *         schema="Transport",
      *         @OA\Xml(name="Transport"),
+     * required={"kode_transport", "nama_transport"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_transport", type="integer", example=1),
      *         @OA\Property(property="nama_transport", type="string", example="Angkutan Umum"),

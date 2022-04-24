@@ -111,6 +111,7 @@ class JenisPegawaiController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_jenis", "nama_jenis"},
      *                 @OA\Property(property="kode_jenis", type="string", example="P11"),
      *                 @OA\Property(property="nama_jenis", type="string", example="Kepala Lab. Informatika"),
      *                 @OA\Property(property="tipe", type="string", example="A"),
@@ -265,6 +266,7 @@ class JenisPegawaiController extends Controller
      *     @OA\Schema(
      *         schema="Jenis pegawai",
      *         @OA\Xml(name="Jenis pegawai"),
+     * required={"kode_jenis", "nama_jenis"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_jenis", type="string", example="P11"),
      *         @OA\Property(property="nama_jenis", type="string", example="Kepala Lab. Informatika"),

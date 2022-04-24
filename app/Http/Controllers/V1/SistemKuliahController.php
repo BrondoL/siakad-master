@@ -113,6 +113,7 @@ class SistemKuliahController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_sistem", "nama_sistem", "is_reguler"},
      *                 @OA\Property(property="kode_sistem", type="integer", example=1),
      *                 @OA\Property(property="nama_sistem", type="string", example="Reguler A"),
      *                 @OA\Property(property="keterangan", type="string", example="Kelas Pagi (senin - jumat)"),
@@ -271,6 +272,7 @@ class SistemKuliahController extends Controller
      *     @OA\Schema(
      *         schema="Sistem kuliah",
      *         @OA\Xml(name="Sistem kuliah"),
+     * required={"kode_sistem", "nama_sistem", "is_reguler"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_sistem", type="integer", example=1),
      *         @OA\Property(property="nama_sistem", type="string", example="Reguler A"),

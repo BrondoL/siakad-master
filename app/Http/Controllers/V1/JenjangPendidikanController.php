@@ -117,6 +117,7 @@ class JenjangPendidikanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_jenjang", "nama_jenjang", "is_akademik", "is_univ"},
      *                 @OA\Property(property="kode_jenjang", type="string", example="S1"),
      *                 @OA\Property(property="nama_jenjang", type="string", example="Srata 1"),
      *                 @OA\Property(property="nama_jenjang_en", type="string", example="Bachelor Degree"),
@@ -283,6 +284,7 @@ class JenjangPendidikanController extends Controller
      *     @OA\Schema(
      *         schema="Jenjang pendidikan",
      *         @OA\Xml(name="Jenjang pendidikan"),
+     * required={"kode_jenjang", "nama_jenjang", "is_akademik", "is_univ"},
      *         @OA\Property(property="id", type="integer", example="1"),
      *         @OA\Property(property="kode_jenjang", type="string", example="S1"),
      *         @OA\Property(property="nama_jenjang", type="string", example="Srata 1"),

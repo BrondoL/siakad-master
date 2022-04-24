@@ -207,6 +207,7 @@ class MahasiswaPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_mahasiswa", "nim", "id_periode", "id_unit", "id_tahun", "is_valid_email"},
      *                 @OA\Property(property="id_mahasiswa", type="integer", example=1),
      *                 @OA\Property(property="nim", type="string", example="1817051074"),
      *                 @OA\Property(property="id_periode", type="integer", example=1),
@@ -547,6 +548,7 @@ class MahasiswaPtController extends Controller
      *     @OA\Schema(
      *         schema="Mahasiswa pt",
      *         @OA\Xml(name="Mahasiswa pt"),
+     * required={"id_mahasiswa", "nim", "id_periode", "id_unit", "id_tahun", "is_valid_email"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_mahasiswa", type="integer", example=1),
      *         @OA\Property(property="nim", type="string", example="1817051074"),

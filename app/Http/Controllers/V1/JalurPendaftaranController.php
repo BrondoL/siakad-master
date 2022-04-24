@@ -111,9 +111,10 @@ class JalurPendaftaranController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"nama_jalur", "kode_transfer"},
      *                 @OA\Property(property="nama_jalur", type="string", example="Mandiri"),
      *                 @OA\Property(property="keterangan", type="string", example="Kelas Mandiri"),
-     *                 @OA\Property(property="kode_transfer", type="string", example="10074"),
+     *                 @OA\Property(property="kode_transfer", type="string", example="74"),
      *             )
      *         )
      *     ),
@@ -173,7 +174,7 @@ class JalurPendaftaranController extends Controller
      *             @OA\Schema(
      *                 @OA\Property(property="nama_jalur", type="string", example="Mandiri"),
      *                 @OA\Property(property="keterangan", type="string", example="Kelas Mandiri"),
-     *                 @OA\Property(property="kode_transfer", type="string", example="10074"),
+     *                 @OA\Property(property="kode_transfer", type="string", example="74"),
      *             )
      *         )
      *     ),
@@ -265,10 +266,11 @@ class JalurPendaftaranController extends Controller
      *     @OA\Schema(
      *         schema="Jalur pendaftaran",
      *         @OA\Xml(name="Jalur pendaftaran"),
+     * required={"nama_jalur", "kode_transfer"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama_jalur", type="string", example="Mandiri"),
      *         @OA\Property(property="keterangan", type="string", example="Kelas Mandiri"),
-     *         @OA\Property(property="kode_transfer", type="string", example="10074"),
+     *         @OA\Property(property="kode_transfer", type="string", example="74"),
      *     ),
      */
 }

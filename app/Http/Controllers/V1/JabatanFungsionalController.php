@@ -109,6 +109,7 @@ class JabatanFungsionalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_fungsional", "nama_fungsional"},
      *                 @OA\Property(property="kode_fungsional", type="string", example="1"),
      *                 @OA\Property(property="nama_fungsional", type="string", example="Dosen"),
      *             )
@@ -259,6 +260,7 @@ class JabatanFungsionalController extends Controller
      *     @OA\Schema(
      *         schema="Jabatan fungsional",
      *         @OA\Xml(name="Jabatan fungsional"),
+     * required={"kode_fungsional", "nama_fungsional"},
      *         @OA\Property(property="id", type="integer", example=""),
      *         @OA\Property(property="kode_fungsional", type="string", example="1"),
      *         @OA\Property(property="nama_fungsional", type="string", example="Dosen"),

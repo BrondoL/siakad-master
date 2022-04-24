@@ -189,6 +189,7 @@ class MahasiswaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"nama", "jenis_kelamin", "tempat_lahir", "tgl_lahir", "show_hp", "show_kota", "show_hobi", "show_minat", "is_valid_email"},
      *                 @OA\Property(property="nama", type="string", example="Aulia Ahmad Nabil"),
      *                 @OA\Property(property="gelar_depan", type="string", example="H."),
      *                 @OA\Property(property="gelar_belakang", type="string", example="S. Kom."),
@@ -496,6 +497,7 @@ class MahasiswaController extends Controller
      *     @OA\Schema(
      *         schema="Mahasiswa",
      *         @OA\Xml(name="Mahasiswa"),
+     * required={"nama", "jenis_kelamin", "tempat_lahir", "tgl_lahir", "show_hp", "show_kota", "show_hobi", "show_minat", "is_valid_email"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama", type="string", example="Aulia Ahmad Nabil"),
      *         @OA\Property(property="gelar_depan", type="string", example="H."),

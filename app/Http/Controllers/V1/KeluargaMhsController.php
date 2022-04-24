@@ -135,6 +135,7 @@ class KeluargaMhsController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_mahasiswa", "status_keluarga", "nama", "is_nik_aktif"},
      *                 @OA\Property(property="id_mahasiswa", type="integer", example=1),
      *                 @OA\Property(property="status_keluarga", type="string", example="A"),
      *                 @OA\Property(property="nama", type="string", example="Ahmad Julio"),
@@ -337,6 +338,7 @@ class KeluargaMhsController extends Controller
      *     @OA\Schema(
      *         schema="Keluarga mhs",
      *         @OA\Xml(name="Keluarga mhs"),
+     * required={"id_mahasiswa", "status_keluarga", "nama", "is_nik_aktif"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_mahasiswa", type="integer", example=1),
      *         @OA\Property(property="status_keluarga", type="string", example="A"),

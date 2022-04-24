@@ -111,6 +111,7 @@ class UniversitasOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_universitas", "is_pmb"},
      *                 @OA\Property(property="id_universitas", type="integer", example=1),
      *                 @OA\Property(property="is_pmb", type="string", example="1"),
      *             )
@@ -263,6 +264,7 @@ class UniversitasOptController extends Controller
      *     @OA\Schema(
      *         schema="Universitas opt",
      *         @OA\Xml(name="Universitas opt"),
+     * required={"id_universitas", "is_pmb"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="id_universitas", type="integer", example=1),

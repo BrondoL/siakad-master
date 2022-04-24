@@ -109,6 +109,7 @@ class PekerjaanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_pekerjaan", "nama_pekerjaan"},
      *                 @OA\Property(property="kode_pekerjaan", type="integer", example=1),
      *                 @OA\Property(property="nama_pekerjaan", type="string", example="Pengusaha"),
      *             )
@@ -259,6 +260,7 @@ class PekerjaanController extends Controller
      *     @OA\Schema(
      *         schema="Pekerjaan",
      *         @OA\Xml(name="Pekerjaan"),
+     * required={"kode_pekerjaan", "nama_pekerjaan"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_pekerjaan", type="integer", example=1),
      *         @OA\Property(property="nama_pekerjaan", type="string", example="Pengusaha"),

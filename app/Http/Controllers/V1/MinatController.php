@@ -107,6 +107,7 @@ class MinatController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"nama_minat"},
      *                 @OA\Property(property="nama_minat", type="string", example="Cyber Security"),
      *             )
      *         )
@@ -253,6 +254,7 @@ class MinatController extends Controller
      *     @OA\Schema(
      *         schema="Minat",
      *         @OA\Xml(name="Minat"),
+     * required={"nama_minat"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama_minat", type="string", example="Cyber Security"),
      *     ),

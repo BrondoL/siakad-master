@@ -109,6 +109,7 @@ class BidangIlmuPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_bidang"},
      *                 @OA\Property(property="id_bidang", type="integer", example=1),
      *             )
      *         )
@@ -257,6 +258,7 @@ class BidangIlmuPtController extends Controller
      *     @OA\Schema(
      *         schema="Bidang ilmu pt",
      *         @OA\Xml(name="Bidang ilmu pt"),
+     * required={"id_bidang"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="id_bidang", type="integer", example=1),

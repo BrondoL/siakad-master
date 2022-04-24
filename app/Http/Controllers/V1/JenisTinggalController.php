@@ -109,6 +109,7 @@ class JenisTinggalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_tinggal", "nama_tinggal"},
      *                 @OA\Property(property="kode_tinggal", type="integer", example=1),
      *                 @OA\Property(property="nama_tinggal", type="string", example="Kos"),
      *             )
@@ -259,6 +260,7 @@ class JenisTinggalController extends Controller
      *     @OA\Schema(
      *         schema="Jenis tinggal",
      *         @OA\Xml(name="Jenis tinggal"),
+     * required={"kode_tinggal", "nama_tinggal"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_tinggal", type="integer", example=1),
      *         @OA\Property(property="nama_tinggal", type="string", example="Kos"),

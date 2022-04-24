@@ -109,6 +109,7 @@ class GelombangController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_gelombang", "nama_gelombang"},
      *                 @OA\Property(property="kode_gelombang", type="integer", example="1"),
      *                 @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),
      *             )
@@ -259,6 +260,7 @@ class GelombangController extends Controller
      *     @OA\Schema(
      *         schema="Gelombang",
      *         @OA\Xml(name="Gelombang"),
+     * required={"kode_gelombang", "nama_gelombang"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_gelombang", type="integer", example="1"),
      *         @OA\Property(property="nama_gelombang", type="string", example="Gelombang 1"),

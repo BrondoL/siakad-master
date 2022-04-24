@@ -107,6 +107,7 @@ class HobiController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"nama_hobi"},
      *                 @OA\Property(property="nama_hobi", type="string", example="Membaca"),
      *             )
      *         )
@@ -253,6 +254,7 @@ class HobiController extends Controller
      *     @OA\Schema(
      *         schema="Hobi",
      *         @OA\Xml(name="Hobi"),
+     * required={"nama_hobi"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama_hobi", type="string", example="Membaca"),
      *     ),

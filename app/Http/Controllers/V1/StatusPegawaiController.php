@@ -111,6 +111,7 @@ class StatusPegawaiController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_suku", "nama_suku"},
      *                 @OA\Property(property="kode_status", type="string", example="AA"),
      *                 @OA\Property(property="nama_status", type="string", example="Aktif"),
      *                 @OA\Property(property="is_keluar", type="string", example="0"),
@@ -265,6 +266,7 @@ class StatusPegawaiController extends Controller
      *     @OA\Schema(
      *         schema="Status pegawai",
      *         @OA\Xml(name="Status pegawai"),
+     * required={"kode_suku", "nama_suku"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_status", type="string", example="AA"),
      *         @OA\Property(property="nama_status", type="string", example="Aktif"),

@@ -117,6 +117,7 @@ class KotaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_kota", "nama_kota", "level"},
      *                 @OA\Property(property="kode_kota", type="string", example="1"),
      *                 @OA\Property(property="nama_kota", type="string", example="Bandar Lampung"),
      *                 @OA\Property(property="id_parent", type="integer", example=1),
@@ -283,6 +284,7 @@ class KotaController extends Controller
      *     @OA\Schema(
      *         schema="Kota",
      *         @OA\Xml(name="Kota"),
+     * required={"kode_kota", "nama_kota", "level"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_kota", type="string", example="1"),
      *         @OA\Property(property="nama_kota", type="string", example="Bandar Lampung"),

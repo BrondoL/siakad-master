@@ -25,7 +25,7 @@ class UniversitasProdiController extends Controller
      *                      @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                      @OA\Property(property="id_jenjang", type="integer", example=1),
      *                      @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                      @OA\Property(property="telepon", type="string", example=""),
+     *                      @OA\Property(property="telepon", type="string", example="082222222222"),
      *                  ),
      *              ),
      *              @OA\Property(property="info", type="object",
@@ -73,7 +73,7 @@ class UniversitasProdiController extends Controller
      *                      @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                      @OA\Property(property="id_jenjang", type="integer", example=1),
      *                      @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                      @OA\Property(property="telepon", type="string", example=""),
+     *                      @OA\Property(property="telepon", type="string", example="082222222222"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -117,12 +117,13 @@ class UniversitasProdiController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_universitas", "kode_prodi", "nama_prodi"},
      *                 @OA\Property(property="id_universitas", type="integer", example=1),
      *                 @OA\Property(property="kode_prodi", type="string", example="008-74-201"),
      *                 @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                 @OA\Property(property="id_jenjang", type="integer", example=1),
      *                 @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                 @OA\Property(property="telepon", type="string", example=""),
+     *                 @OA\Property(property="telepon", type="string", example="082222222222"),
      *             )
      *         )
      *     ),
@@ -138,7 +139,7 @@ class UniversitasProdiController extends Controller
      *                      @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                      @OA\Property(property="id_jenjang", type="integer", example=1),
      *                      @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                      @OA\Property(property="telepon", type="string", example=""),
+     *                      @OA\Property(property="telepon", type="string", example="082222222222"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -188,7 +189,7 @@ class UniversitasProdiController extends Controller
      *                 @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                 @OA\Property(property="id_jenjang", type="integer", example=1),
      *                 @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                 @OA\Property(property="telepon", type="string", example=""),
+     *                 @OA\Property(property="telepon", type="string", example="082222222222"),
      *             )
      *         )
      *     ),
@@ -204,7 +205,7 @@ class UniversitasProdiController extends Controller
      *                      @OA\Property(property="nama_prodi", type="string", example="Hukum"),
      *                      @OA\Property(property="id_jenjang", type="integer", example=1),
      *                      @OA\Property(property="alamat", type="string", example="Jl. "),
-     *                      @OA\Property(property="telepon", type="string", example=""),
+     *                      @OA\Property(property="telepon", type="string", example="082222222222"),
      *                  ),
      *              ),
      *              @OA\Property(property="debug", type="array",
@@ -283,6 +284,7 @@ class UniversitasProdiController extends Controller
      *     @OA\Schema(
      *         schema="Universitas prodi",
      *         @OA\Xml(name="Universitas prodi"),
+     * required={"id_universitas", "kode_prodi", "nama_prodi"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_universitas", type="integer", example=1),
      *         @OA\Property(property="kode_prodi", type="string", example="008-74-201"),

@@ -115,6 +115,7 @@ class PtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_pt", "nama_pt", "is_fakultas", "is_jurusan"},
      *                 @OA\Property(property="kode_pt", type="string", example="1"),
      *                 @OA\Property(property="nama_pt", type="string", example="Universitas Lampung"),
      *                 @OA\Property(property="is_fakultas", type="string", example="1"),
@@ -277,6 +278,7 @@ class PtController extends Controller
      *     @OA\Schema(
      *         schema="Pt",
      *         @OA\Xml(name="Pt"),
+     * required={"kode_pt", "nama_pt", "is_fakultas", "is_jurusan"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_pt", type="string", example="1"),
      *         @OA\Property(property="nama_pt", type="string", example="Universitas Lampung"),

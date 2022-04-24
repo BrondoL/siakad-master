@@ -117,6 +117,7 @@ class TahunKurikulumController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"tahun_kurikulum", "nama_kurikulum"},
      *                 @OA\Property(property="tahun_kurikulum", type="string", example="3022"),
      *                 @OA\Property(property="nama_kurikulum", type="string", example="3022"),
      *                 @OA\Property(property="tgl_awal", type="date", example="2022-02-01"),
@@ -281,6 +282,7 @@ class TahunKurikulumController extends Controller
      *     @OA\Schema(
      *         schema="Tahun kurikulum",
      *         @OA\Xml(name="Tahun kurikulum"),
+     * required={"tahun_kurikulum", "nama_kurikulum"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="tahun_kurikulum", type="string", example="3022"),

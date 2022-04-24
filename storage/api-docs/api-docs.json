@@ -110,6 +110,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_agama",
+                                    "nama_agama"
+                                ],
                                 "properties": {
                                     "kode_agama": {
                                         "type": "integer",
@@ -702,6 +706,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_almamater"
+                                ],
                                 "properties": {
                                     "nama_almamater": {
                                         "type": "string",
@@ -1278,6 +1285,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_bidang",
+                                    "nama_bidang"
+                                ],
                                 "properties": {
                                     "kode_bidang": {
                                         "type": "string",
@@ -1874,6 +1885,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_bidang"
+                                ],
                                 "properties": {
                                     "id_bidang": {
                                         "type": "integer",
@@ -2470,6 +2484,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_unit",
+                                    "kode_bidang",
+                                    "nama_bidang"
+                                ],
                                 "properties": {
                                     "id_unit": {
                                         "type": "integer",
@@ -3106,6 +3125,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_gelombang",
+                                    "nama_gelombang"
+                                ],
                                 "properties": {
                                     "kode_gelombang": {
                                         "type": "integer",
@@ -3702,6 +3725,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_gelombang"
+                                ],
                                 "properties": {
                                     "id_gelombang": {
                                         "type": "integer",
@@ -4286,6 +4312,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_hobi"
+                                ],
                                 "properties": {
                                     "nama_hobi": {
                                         "type": "string",
@@ -4862,6 +4891,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_fungsional",
+                                    "nama_fungsional"
+                                ],
                                 "properties": {
                                     "kode_fungsional": {
                                         "type": "string",
@@ -5486,6 +5519,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_struktural",
+                                    "nama_struktural"
+                                ],
                                 "properties": {
                                     "kode_struktural": {
                                         "type": "string",
@@ -5522,6 +5559,14 @@
                                     "is_pimpinan": {
                                         "type": "string",
                                         "example": "1"
+                                    },
+                                    "info_left": {
+                                        "type": "string",
+                                        "example": 1
+                                    },
+                                    "info_right": {
+                                        "type": "string",
+                                        "example": 1
                                     }
                                 },
                                 "type": "object"
@@ -5879,6 +5924,14 @@
                                     "is_pimpinan": {
                                         "type": "string",
                                         "example": "1"
+                                    },
+                                    "info_left": {
+                                        "type": "string",
+                                        "example": 1
+                                    },
+                                    "info_right": {
+                                        "type": "string",
+                                        "example": 1
                                     }
                                 },
                                 "type": "object"
@@ -6226,6 +6279,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_jalur",
+                                    "kode_transfer"
+                                ],
                                 "properties": {
                                     "nama_jalur": {
                                         "type": "string",
@@ -6237,7 +6294,7 @@
                                     },
                                     "kode_transfer": {
                                         "type": "string",
-                                        "example": "10074"
+                                        "example": "74"
                                     }
                                 },
                                 "type": "object"
@@ -6522,7 +6579,7 @@
                                     },
                                     "kode_transfer": {
                                         "type": "string",
-                                        "example": "10074"
+                                        "example": "74"
                                     }
                                 },
                                 "type": "object"
@@ -6842,6 +6899,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_jalur"
+                                ],
                                 "properties": {
                                     "id_jalur": {
                                         "type": "integer",
@@ -7434,6 +7494,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_jenis",
+                                    "nama_jenis"
+                                ],
                                 "properties": {
                                     "kode_jenis": {
                                         "type": "string",
@@ -8050,6 +8114,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_tinggal",
+                                    "nama_tinggal"
+                                ],
                                 "properties": {
                                     "kode_tinggal": {
                                         "type": "integer",
@@ -8662,6 +8730,12 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_jenjang",
+                                    "nama_jenjang",
+                                    "is_akademik",
+                                    "is_univ"
+                                ],
                                 "properties": {
                                     "kode_jenjang": {
                                         "type": "string",
@@ -9257,31 +9331,31 @@
                                                 "properties": {
                                                     "id": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_pt": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_jenjang": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "max_cuti": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "max_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 16
                                                     },
                                                     "masa_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "default_nilai": {
                                                         "type": "decimal",
-                                                        "example": ""
+                                                        "example": "7.65"
                                                     },
                                                     "kode_nim": {
                                                         "type": "string",
@@ -9289,11 +9363,11 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "121"
+                                                        "example": "12"
                                                     },
                                                     "kode_emis_pasca": {
                                                         "type": "string",
-                                                        "example": "432"
+                                                        "example": "43"
                                                     },
                                                     "deskripsi": {
                                                         "type": "string",
@@ -9374,26 +9448,30 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_jenjang",
+                                    "is_pt"
+                                ],
                                 "properties": {
                                     "id_jenjang": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 1
                                     },
                                     "max_cuti": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 3
                                     },
                                     "max_studi": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 16
                                     },
                                     "masa_studi": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 3
                                     },
                                     "default_nilai": {
                                         "type": "decimal",
-                                        "example": ""
+                                        "example": "7.65"
                                     },
                                     "kode_nim": {
                                         "type": "string",
@@ -9401,11 +9479,11 @@
                                     },
                                     "kode_emis": {
                                         "type": "string",
-                                        "example": "121"
+                                        "example": "12"
                                     },
                                     "kode_emis_pasca": {
                                         "type": "string",
-                                        "example": "432"
+                                        "example": "43"
                                     },
                                     "deskripsi": {
                                         "type": "string",
@@ -9434,31 +9512,31 @@
                                                 "properties": {
                                                     "id": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_pt": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_jenjang": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "max_cuti": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "max_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 16
                                                     },
                                                     "masa_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "default_nilai": {
                                                         "type": "decimal",
-                                                        "example": ""
+                                                        "example": "7.65"
                                                     },
                                                     "kode_nim": {
                                                         "type": "string",
@@ -9466,11 +9544,11 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "121"
+                                                        "example": "12"
                                                     },
                                                     "kode_emis_pasca": {
                                                         "type": "string",
-                                                        "example": "432"
+                                                        "example": "43"
                                                     },
                                                     "deskripsi": {
                                                         "type": "string",
@@ -9587,31 +9665,31 @@
                                                 "properties": {
                                                     "id": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_pt": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_jenjang": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "max_cuti": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "max_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 16
                                                     },
                                                     "masa_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "default_nilai": {
                                                         "type": "decimal",
-                                                        "example": ""
+                                                        "example": "7.65"
                                                     },
                                                     "kode_nim": {
                                                         "type": "string",
@@ -9619,11 +9697,11 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "121"
+                                                        "example": "12"
                                                     },
                                                     "kode_emis_pasca": {
                                                         "type": "string",
-                                                        "example": "432"
+                                                        "example": "43"
                                                     },
                                                     "deskripsi": {
                                                         "type": "string",
@@ -9754,23 +9832,23 @@
                                 "properties": {
                                     "id_jenjang": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 1
                                     },
                                     "max_cuti": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 3
                                     },
                                     "max_studi": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 16
                                     },
                                     "masa_studi": {
                                         "type": "integer",
-                                        "example": ""
+                                        "example": 3
                                     },
                                     "default_nilai": {
                                         "type": "decimal",
-                                        "example": ""
+                                        "example": "7.65"
                                     },
                                     "kode_nim": {
                                         "type": "string",
@@ -9778,11 +9856,11 @@
                                     },
                                     "kode_emis": {
                                         "type": "string",
-                                        "example": "121"
+                                        "example": "12"
                                     },
                                     "kode_emis_pasca": {
                                         "type": "string",
-                                        "example": "432"
+                                        "example": "43"
                                     },
                                     "deskripsi": {
                                         "type": "string",
@@ -9811,31 +9889,31 @@
                                                 "properties": {
                                                     "id": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_pt": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "id_jenjang": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 1
                                                     },
                                                     "max_cuti": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "max_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 16
                                                     },
                                                     "masa_studi": {
                                                         "type": "integer",
-                                                        "example": ""
+                                                        "example": 3
                                                     },
                                                     "default_nilai": {
                                                         "type": "decimal",
-                                                        "example": ""
+                                                        "example": "7.65"
                                                     },
                                                     "kode_nim": {
                                                         "type": "string",
@@ -9843,11 +9921,11 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "121"
+                                                        "example": "12"
                                                     },
                                                     "kode_emis_pasca": {
                                                         "type": "string",
-                                                        "example": "432"
+                                                        "example": "43"
                                                     },
                                                     "deskripsi": {
                                                         "type": "string",
@@ -10146,6 +10224,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_kelas",
+                                    "nama_kelas"
+                                ],
                                 "properties": {
                                     "kode_kelas": {
                                         "type": "string",
@@ -10806,6 +10888,12 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_mahasiswa",
+                                    "status_keluarga",
+                                    "nama",
+                                    "is_nik_aktif"
+                                ],
                                 "properties": {
                                     "id_mahasiswa": {
                                         "type": "integer",
@@ -11678,6 +11766,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_kota",
+                                    "nama_kota",
+                                    "level"
+                                ],
                                 "properties": {
                                     "kode_kota": {
                                         "type": "string",
@@ -12514,6 +12607,17 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama",
+                                    "jenis_kelamin",
+                                    "tempat_lahir",
+                                    "tgl_lahir",
+                                    "show_hp",
+                                    "show_kota",
+                                    "show_hobi",
+                                    "show_minat",
+                                    "is_valid_email"
+                                ],
                                 "properties": {
                                     "nama": {
                                         "type": "string",
@@ -13914,6 +14018,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_mahasiswa_pt",
+                                    "id_periode",
+                                    "id_status"
+                                ],
                                 "properties": {
                                     "id_mahasiswa_pt": {
                                         "type": "integer",
@@ -14778,6 +14887,14 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_mahasiswa",
+                                    "nim",
+                                    "id_periode",
+                                    "id_unit",
+                                    "id_tahun",
+                                    "is_valid_email"
+                                ],
                                 "properties": {
                                     "id_mahasiswa": {
                                         "type": "integer",
@@ -16326,6 +16443,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_minat"
+                                ],
                                 "properties": {
                                     "nama_minat": {
                                         "type": "string",
@@ -16906,6 +17026,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_negara",
+                                    "nama_kota"
+                                ],
                                 "properties": {
                                     "kode_negara": {
                                         "type": "string",
@@ -17522,6 +17646,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_pangkat",
+                                    "nama_pangkat"
+                                ],
                                 "properties": {
                                     "kode_pangkat": {
                                         "type": "string",
@@ -18057,7 +18185,7 @@
                                                     },
                                                     "tgl_lahir": {
                                                         "type": "date",
-                                                        "example": "2000-07-"
+                                                        "example": "2000-07-08"
                                                     },
                                                     "tempat_lahir": {
                                                         "type": "string",
@@ -18194,6 +18322,16 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama",
+                                    "jenis_kelamin",
+                                    "show_hp",
+                                    "show_email",
+                                    "show_kota",
+                                    "show_hobi",
+                                    "show_minat",
+                                    "is_valid_email"
+                                ],
                                 "properties": {
                                     "nama": {
                                         "type": "string",
@@ -18213,7 +18351,7 @@
                                     },
                                     "tgl_lahir": {
                                         "type": "date",
-                                        "example": "2000-07-"
+                                        "example": "2000-07-08"
                                     },
                                     "tempat_lahir": {
                                         "type": "string",
@@ -18314,7 +18452,7 @@
                                                     },
                                                     "tgl_lahir": {
                                                         "type": "date",
-                                                        "example": "2000-07-"
+                                                        "example": "2000-07-08"
                                                     },
                                                     "tempat_lahir": {
                                                         "type": "string",
@@ -18507,7 +18645,7 @@
                                                     },
                                                     "tgl_lahir": {
                                                         "type": "date",
-                                                        "example": "2000-07-"
+                                                        "example": "2000-07-08"
                                                     },
                                                     "tempat_lahir": {
                                                         "type": "string",
@@ -18710,7 +18848,7 @@
                                     },
                                     "tgl_lahir": {
                                         "type": "date",
-                                        "example": "2000-07-"
+                                        "example": "2000-07-08"
                                     },
                                     "tempat_lahir": {
                                         "type": "string",
@@ -18811,7 +18949,7 @@
                                                     },
                                                     "tgl_lahir": {
                                                         "type": "date",
-                                                        "example": "2000-07-"
+                                                        "example": "2000-07-08"
                                                     },
                                                     "tempat_lahir": {
                                                         "type": "string",
@@ -19242,6 +19380,16 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_pegawai",
+                                    "nip",
+                                    "tugas_luar",
+                                    "is_dosen_luar",
+                                    "is_pengasuh",
+                                    "is_pembina_ukm",
+                                    "is_pembina_ekskul",
+                                    "is_valid_email"
+                                ],
                                 "properties": {
                                     "id_pegawai": {
                                         "type": "integer",
@@ -20238,6 +20386,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_pekerjaan",
+                                    "nama_pekerjaan"
+                                ],
                                 "properties": {
                                     "kode_pekerjaan": {
                                         "type": "integer",
@@ -20846,6 +20998,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_pekerjaan"
+                                ],
                                 "properties": {
                                     "id_pekerjaan": {
                                         "type": "integer",
@@ -21498,6 +21653,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_penghasilan",
+                                    "nama_penghasilan",
+                                    "poin_bidik_misi"
+                                ],
                                 "properties": {
                                     "kode_penghasilan": {
                                         "type": "integer",
@@ -22118,6 +22278,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_penghasilan"
+                                ],
                                 "properties": {
                                     "id_penghasilan": {
                                         "type": "integer",
@@ -22786,6 +22949,12 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_periode",
+                                    "nama_periode",
+                                    "id_tahun_ajaran",
+                                    "is_aktif"
+                                ],
                                 "properties": {
                                     "kode_periode": {
                                         "type": "string",
@@ -23686,6 +23855,12 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_pt",
+                                    "nama_pt",
+                                    "is_fakultas",
+                                    "is_jurusan"
+                                ],
                                 "properties": {
                                     "kode_pt": {
                                         "type": "string",
@@ -24350,6 +24525,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_sistem",
+                                    "nama_sistem",
+                                    "is_reguler"
+                                ],
                                 "properties": {
                                     "kode_sistem": {
                                         "type": "integer",
@@ -24986,6 +25166,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_sistem"
+                                ],
                                 "properties": {
                                     "id_sistem": {
                                         "type": "integer",
@@ -25574,6 +25757,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_status",
+                                    "nama_status"
+                                ],
                                 "properties": {
                                     "kode_status": {
                                         "type": "string",
@@ -26101,7 +26288,7 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "10-1"
+                                                        "example": "10"
                                                     },
                                                     "is_diajukan": {
                                                         "type": "string",
@@ -26178,6 +26365,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_status",
+                                    "is_diajukan"
+                                ],
                                 "properties": {
                                     "id_status": {
                                         "type": "integer",
@@ -26185,7 +26376,7 @@
                                     },
                                     "kode_emis": {
                                         "type": "string",
-                                        "example": "10-1"
+                                        "example": "10"
                                     },
                                     "is_diajukan": {
                                         "type": "string",
@@ -26222,7 +26413,7 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "10-1"
+                                                        "example": "10"
                                                     },
                                                     "is_diajukan": {
                                                         "type": "string",
@@ -26347,7 +26538,7 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "10-1"
+                                                        "example": "10"
                                                     },
                                                     "is_diajukan": {
                                                         "type": "string",
@@ -26478,7 +26669,7 @@
                                     },
                                     "kode_emis": {
                                         "type": "string",
-                                        "example": "10-1"
+                                        "example": "10"
                                     },
                                     "is_diajukan": {
                                         "type": "string",
@@ -26515,7 +26706,7 @@
                                                     },
                                                     "kode_emis": {
                                                         "type": "string",
-                                                        "example": "10-1"
+                                                        "example": "10"
                                                     },
                                                     "is_diajukan": {
                                                         "type": "string",
@@ -26810,6 +27001,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_suku",
+                                    "nama_suku"
+                                ],
                                 "properties": {
                                     "kode_status": {
                                         "type": "string",
@@ -27426,6 +27621,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_suku",
+                                    "nama_suku"
+                                ],
                                 "properties": {
                                     "kode_suku": {
                                         "type": "integer",
@@ -28026,6 +28225,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "tahun_ajaran",
+                                    "nama_tahun_ajaran"
+                                ],
                                 "properties": {
                                     "tahun_ajaran": {
                                         "type": "string",
@@ -28650,6 +28853,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "tahun_kurikulum",
+                                    "nama_kurikulum"
+                                ],
                                 "properties": {
                                     "tahun_kurikulum": {
                                         "type": "string",
@@ -29378,6 +29585,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_transport",
+                                    "nama_transport"
+                                ],
                                 "properties": {
                                     "kode_transport": {
                                         "type": "integer",
@@ -29945,7 +30156,7 @@
                                                     },
                                                     "gelar_en": {
                                                         "type": "string",
-                                                        "example": "Bachelor of Engineering"
+                                                        "example": "S.T."
                                                     },
                                                     "deskripsi_gelar": {
                                                         "type": "string",
@@ -29961,15 +30172,15 @@
                                                     },
                                                     "sk_akreditasi": {
                                                         "type": "string",
-                                                        "example": "UIDA-"
+                                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                                     },
                                                     "tgl_akreditasi": {
                                                         "type": "date",
-                                                        "example": "2021"
+                                                        "example": "2021-01-01"
                                                     },
                                                     "tgl_sk_pendirian": {
                                                         "type": "date",
-                                                        "example": "20"
+                                                        "example": "2019-01-01"
                                                     },
                                                     "id_periode_berdiri": {
                                                         "type": "integer",
@@ -30138,6 +30349,14 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_unit",
+                                    "jenis_unit",
+                                    "is_aktif",
+                                    "is_eksternal",
+                                    "info_left",
+                                    "info_right"
+                                ],
                                 "properties": {
                                     "nama_unit": {
                                         "type": "string",
@@ -30185,7 +30404,7 @@
                                     },
                                     "gelar_en": {
                                         "type": "string",
-                                        "example": "Bachelor of Engineering"
+                                        "example": "S.T."
                                     },
                                     "deskripsi_gelar": {
                                         "type": "string",
@@ -30201,15 +30420,15 @@
                                     },
                                     "sk_akreditasi": {
                                         "type": "string",
-                                        "example": "UIDA-"
+                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                     },
                                     "tgl_akreditasi": {
                                         "type": "date",
-                                        "example": "2021"
+                                        "example": "2021-01-01"
                                     },
                                     "tgl_sk_pendirian": {
                                         "type": "date",
-                                        "example": "20"
+                                        "example": "2019-01-01"
                                     },
                                     "id_periode_berdiri": {
                                         "type": "integer",
@@ -30378,7 +30597,7 @@
                                                     },
                                                     "gelar_en": {
                                                         "type": "string",
-                                                        "example": "Bachelor of Engineering"
+                                                        "example": "S.T."
                                                     },
                                                     "deskripsi_gelar": {
                                                         "type": "string",
@@ -30394,15 +30613,15 @@
                                                     },
                                                     "sk_akreditasi": {
                                                         "type": "string",
-                                                        "example": "UIDA-"
+                                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                                     },
                                                     "tgl_akreditasi": {
                                                         "type": "date",
-                                                        "example": "2021"
+                                                        "example": "2021-01-01"
                                                     },
                                                     "tgl_sk_pendirian": {
                                                         "type": "date",
-                                                        "example": "20"
+                                                        "example": "2019-01-01"
                                                     },
                                                     "id_periode_berdiri": {
                                                         "type": "integer",
@@ -30659,7 +30878,7 @@
                                                     },
                                                     "gelar_en": {
                                                         "type": "string",
-                                                        "example": "Bachelor of Engineering"
+                                                        "example": "S.T."
                                                     },
                                                     "deskripsi_gelar": {
                                                         "type": "string",
@@ -30675,15 +30894,15 @@
                                                     },
                                                     "sk_akreditasi": {
                                                         "type": "string",
-                                                        "example": "UIDA-"
+                                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                                     },
                                                     "tgl_akreditasi": {
                                                         "type": "date",
-                                                        "example": "2021"
+                                                        "example": "2021-01-01"
                                                     },
                                                     "tgl_sk_pendirian": {
                                                         "type": "date",
-                                                        "example": "20"
+                                                        "example": "2019-01-01"
                                                     },
                                                     "id_periode_berdiri": {
                                                         "type": "integer",
@@ -30946,7 +31165,7 @@
                                     },
                                     "gelar_en": {
                                         "type": "string",
-                                        "example": "Bachelor of Engineering"
+                                        "example": "S.T."
                                     },
                                     "deskripsi_gelar": {
                                         "type": "string",
@@ -30962,15 +31181,15 @@
                                     },
                                     "sk_akreditasi": {
                                         "type": "string",
-                                        "example": "UIDA-"
+                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                     },
                                     "tgl_akreditasi": {
                                         "type": "date",
-                                        "example": "2021"
+                                        "example": "2021-01-01"
                                     },
                                     "tgl_sk_pendirian": {
                                         "type": "date",
-                                        "example": "20"
+                                        "example": "2019-01-01"
                                     },
                                     "id_periode_berdiri": {
                                         "type": "integer",
@@ -31139,7 +31358,7 @@
                                                     },
                                                     "gelar_en": {
                                                         "type": "string",
-                                                        "example": "Bachelor of Engineering"
+                                                        "example": "S.T."
                                                     },
                                                     "deskripsi_gelar": {
                                                         "type": "string",
@@ -31155,15 +31374,15 @@
                                                     },
                                                     "sk_akreditasi": {
                                                         "type": "string",
-                                                        "example": "UIDA-"
+                                                        "example": "UIDA-SK-A-01/UNILA/2019"
                                                     },
                                                     "tgl_akreditasi": {
                                                         "type": "date",
-                                                        "example": "2021"
+                                                        "example": "2021-01-01"
                                                     },
                                                     "tgl_sk_pendirian": {
                                                         "type": "date",
-                                                        "example": "20"
+                                                        "example": "2019-01-01"
                                                     },
                                                     "id_periode_berdiri": {
                                                         "type": "integer",
@@ -31554,6 +31773,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "kode_universitas",
+                                    "nama_universitas"
+                                ],
                                 "properties": {
                                     "kode_universitas": {
                                         "type": "string",
@@ -32194,6 +32417,10 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_universitas",
+                                    "is_pmb"
+                                ],
                                 "properties": {
                                     "id_universitas": {
                                         "type": "integer",
@@ -32745,7 +32972,7 @@
                                                     },
                                                     "telepon": {
                                                         "type": "string",
-                                                        "example": ""
+                                                        "example": "082222222222"
                                                     }
                                                 },
                                                 "type": "object"
@@ -32818,6 +33045,11 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "id_universitas",
+                                    "kode_prodi",
+                                    "nama_prodi"
+                                ],
                                 "properties": {
                                     "id_universitas": {
                                         "type": "integer",
@@ -32841,7 +33073,7 @@
                                     },
                                     "telepon": {
                                         "type": "string",
-                                        "example": ""
+                                        "example": "082222222222"
                                     }
                                 },
                                 "type": "object"
@@ -32886,7 +33118,7 @@
                                                     },
                                                     "telepon": {
                                                         "type": "string",
-                                                        "example": ""
+                                                        "example": "082222222222"
                                                     }
                                                 },
                                                 "type": "object"
@@ -33019,7 +33251,7 @@
                                                     },
                                                     "telepon": {
                                                         "type": "string",
-                                                        "example": ""
+                                                        "example": "082222222222"
                                                     }
                                                 },
                                                 "type": "object"
@@ -33162,7 +33394,7 @@
                                     },
                                     "telepon": {
                                         "type": "string",
-                                        "example": ""
+                                        "example": "082222222222"
                                     }
                                 },
                                 "type": "object"
@@ -33207,7 +33439,7 @@
                                                     },
                                                     "telepon": {
                                                         "type": "string",
-                                                        "example": ""
+                                                        "example": "082222222222"
                                                     }
                                                 },
                                                 "type": "object"
@@ -33490,6 +33722,9 @@
                     "content": {
                         "application/json": {
                             "schema": {
+                                "required": [
+                                    "nama_yayasan"
+                                ],
                                 "properties": {
                                     "nama_yayasan": {
                                         "type": "string",
@@ -33970,6 +34205,10 @@
     "components": {
         "schemas": {
             "Agama": {
+                "required": [
+                    "kode_agama",
+                    "nama_agama"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -33990,6 +34229,9 @@
                 }
             },
             "Almamater": {
+                "required": [
+                    "nama_almamater"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34006,6 +34248,10 @@
                 }
             },
             "Bidang ilmu": {
+                "required": [
+                    "kode_bidang",
+                    "nama_bidang"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34026,6 +34272,9 @@
                 }
             },
             "Bidang ilmu pt": {
+                "required": [
+                    "id_bidang"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34046,6 +34295,11 @@
                 }
             },
             "Bidang studi": {
+                "required": [
+                    "id_unit",
+                    "kode_bidang",
+                    "nama_bidang"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34074,6 +34328,10 @@
                 }
             },
             "Gelombang": {
+                "required": [
+                    "kode_gelombang",
+                    "nama_gelombang"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34094,6 +34352,9 @@
                 }
             },
             "Gelombang pt": {
+                "required": [
+                    "id_gelombang"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34114,6 +34375,9 @@
                 }
             },
             "Hobi": {
+                "required": [
+                    "nama_hobi"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34130,6 +34394,10 @@
                 }
             },
             "Jabatan fungsional": {
+                "required": [
+                    "kode_fungsional",
+                    "nama_fungsional"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34150,6 +34418,10 @@
                 }
             },
             "Jabatan struktural": {
+                "required": [
+                    "kode_struktural",
+                    "nama_struktural"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34190,6 +34462,14 @@
                     "is_pimpinan": {
                         "type": "string",
                         "example": "1"
+                    },
+                    "info_left": {
+                        "type": "string",
+                        "example": 1
+                    },
+                    "info_right": {
+                        "type": "string",
+                        "example": 1
                     }
                 },
                 "type": "object",
@@ -34198,6 +34478,10 @@
                 }
             },
             "Jalur pendaftaran": {
+                "required": [
+                    "nama_jalur",
+                    "kode_transfer"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34213,7 +34497,7 @@
                     },
                     "kode_transfer": {
                         "type": "string",
-                        "example": "10074"
+                        "example": "74"
                     }
                 },
                 "type": "object",
@@ -34222,6 +34506,9 @@
                 }
             },
             "Jalur pendaftaran pt": {
+                "required": [
+                    "id_jalur"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34242,6 +34529,10 @@
                 }
             },
             "Jenis pegawai": {
+                "required": [
+                    "kode_jenis",
+                    "nama_jenis"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34266,6 +34557,10 @@
                 }
             },
             "Jenis tinggal": {
+                "required": [
+                    "kode_tinggal",
+                    "nama_tinggal"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34286,6 +34581,12 @@
                 }
             },
             "Jenjang pendidikan": {
+                "required": [
+                    "kode_jenjang",
+                    "nama_jenjang",
+                    "is_akademik",
+                    "is_univ"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34322,34 +34623,38 @@
                 }
             },
             "Jenjang pendidikan pt": {
+                "required": [
+                    "id_jenjang",
+                    "is_pt"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
-                        "example": ""
+                        "example": 1
                     },
                     "id_pt": {
                         "type": "integer",
-                        "example": ""
+                        "example": 1
                     },
                     "id_jenjang": {
                         "type": "integer",
-                        "example": ""
+                        "example": 1
                     },
                     "max_cuti": {
                         "type": "integer",
-                        "example": ""
+                        "example": 3
                     },
                     "max_studi": {
                         "type": "integer",
-                        "example": ""
+                        "example": 16
                     },
                     "masa_studi": {
                         "type": "integer",
-                        "example": ""
+                        "example": 3
                     },
                     "default_nilai": {
                         "type": "decimal",
-                        "example": ""
+                        "example": "7.65"
                     },
                     "kode_nim": {
                         "type": "string",
@@ -34357,11 +34662,11 @@
                     },
                     "kode_emis": {
                         "type": "string",
-                        "example": "121"
+                        "example": "12"
                     },
                     "kode_emis_pasca": {
                         "type": "string",
-                        "example": "432"
+                        "example": "43"
                     },
                     "deskripsi": {
                         "type": "string",
@@ -34378,6 +34683,10 @@
                 }
             },
             "Kelas perkuliahan": {
+                "required": [
+                    "kode_kelas",
+                    "nama_kelas"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34402,6 +34711,12 @@
                 }
             },
             "Keluarga mhs": {
+                "required": [
+                    "id_mahasiswa",
+                    "status_keluarga",
+                    "nama",
+                    "is_nik_aktif"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34474,6 +34789,11 @@
                 }
             },
             "Kota": {
+                "required": [
+                    "kode_kota",
+                    "nama_kota",
+                    "level"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34510,6 +34830,17 @@
                 }
             },
             "Mahasiswa": {
+                "required": [
+                    "nama",
+                    "jenis_kelamin",
+                    "tempat_lahir",
+                    "tgl_lahir",
+                    "show_hp",
+                    "show_kota",
+                    "show_hobi",
+                    "show_minat",
+                    "is_valid_email"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34726,6 +35057,14 @@
                 }
             },
             "Mahasiswa pt": {
+                "required": [
+                    "id_mahasiswa",
+                    "nim",
+                    "id_periode",
+                    "id_unit",
+                    "id_tahun",
+                    "is_valid_email"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34942,6 +35281,9 @@
                 }
             },
             "Minat": {
+                "required": [
+                    "nama_minat"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34958,6 +35300,10 @@
                 }
             },
             "Negara": {
+                "required": [
+                    "kode_negara",
+                    "nama_kota"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -34982,6 +35328,10 @@
                 }
             },
             "Pangkat": {
+                "required": [
+                    "kode_pangkat",
+                    "nama_pangkat"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35002,6 +35352,16 @@
                 }
             },
             "Pegawai": {
+                "required": [
+                    "nama",
+                    "jenis_kelamin",
+                    "show_hp",
+                    "show_email",
+                    "show_kota",
+                    "show_hobi",
+                    "show_minat",
+                    "is_valid_email"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35098,6 +35458,16 @@
                 }
             },
             "Pegawai pt": {
+                "required": [
+                    "id_pegawai",
+                    "nip",
+                    "tugas_luar",
+                    "is_dosen_luar",
+                    "is_pengasuh",
+                    "is_pembina_ukm",
+                    "is_pembina_ekskul",
+                    "is_valid_email"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35198,6 +35568,10 @@
                 }
             },
             "Pekerjaan": {
+                "required": [
+                    "kode_pekerjaan",
+                    "nama_pekerjaan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35218,6 +35592,9 @@
                 }
             },
             "Pekerjaan opt": {
+                "required": [
+                    "id_pekerjaan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35250,6 +35627,11 @@
                 }
             },
             "Penghasilan": {
+                "required": [
+                    "kode_penghasilan",
+                    "nama_penghasilan",
+                    "poin_bidik_misi"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35274,6 +35656,9 @@
                 }
             },
             "Penghasilan opt": {
+                "required": [
+                    "id_penghasilan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35298,6 +35683,12 @@
                 }
             },
             "Periode": {
+                "required": [
+                    "kode_periode",
+                    "nama_periode",
+                    "id_tahun_ajaran",
+                    "is_aktif"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35378,6 +35769,12 @@
                 }
             },
             "Pt": {
+                "required": [
+                    "kode_pt",
+                    "nama_pt",
+                    "is_fakultas",
+                    "is_jurusan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35410,6 +35807,11 @@
                 }
             },
             "Sistem kuliah": {
+                "required": [
+                    "kode_sistem",
+                    "nama_sistem",
+                    "is_reguler"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35438,6 +35840,9 @@
                 }
             },
             "Sistem kuliah pt": {
+                "required": [
+                    "id_sistem"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35458,6 +35863,10 @@
                 }
             },
             "Status mahasiswa": {
+                "required": [
+                    "kode_status",
+                    "nama_status"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35478,6 +35887,10 @@
                 }
             },
             "Status mahasiswa opt": {
+                "required": [
+                    "id_status",
+                    "is_diajukan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35493,7 +35906,7 @@
                     },
                     "kode_emis": {
                         "type": "string",
-                        "example": "10-1"
+                        "example": "10"
                     },
                     "is_diajukan": {
                         "type": "string",
@@ -35506,6 +35919,10 @@
                 }
             },
             "Status pegawai": {
+                "required": [
+                    "kode_suku",
+                    "nama_suku"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35530,6 +35947,10 @@
                 }
             },
             "Suku": {
+                "required": [
+                    "kode_suku",
+                    "nama_suku"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35550,6 +35971,10 @@
                 }
             },
             "Tahun ajaran": {
+                "required": [
+                    "tahun_ajaran",
+                    "nama_tahun_ajaran"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35574,6 +35999,10 @@
                 }
             },
             "Tahun kurikulum": {
+                "required": [
+                    "tahun_kurikulum",
+                    "nama_kurikulum"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35610,6 +36039,10 @@
                 }
             },
             "Transport": {
+                "required": [
+                    "kode_transport",
+                    "nama_transport"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35630,6 +36063,14 @@
                 }
             },
             "Unit": {
+                "required": [
+                    "nama_unit",
+                    "jenis_unit",
+                    "is_aktif",
+                    "is_eksternal",
+                    "info_left",
+                    "info_right"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35685,7 +36126,7 @@
                     },
                     "gelar_en": {
                         "type": "string",
-                        "example": "Bachelor of Engineering"
+                        "example": "S.T."
                     },
                     "deskripsi_gelar": {
                         "type": "string",
@@ -35814,6 +36255,10 @@
                 }
             },
             "Universitas": {
+                "required": [
+                    "kode_universitas",
+                    "nama_universitas"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35842,6 +36287,10 @@
                 }
             },
             "Universitas opt": {
+                "required": [
+                    "id_universitas",
+                    "is_pmb"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35866,6 +36315,11 @@
                 }
             },
             "Universitas prodi": {
+                "required": [
+                    "id_universitas",
+                    "kode_prodi",
+                    "nama_prodi"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",
@@ -35902,6 +36356,9 @@
                 }
             },
             "Yayasan": {
+                "required": [
+                    "nama_yayasan"
+                ],
                 "properties": {
                     "id": {
                         "type": "integer",

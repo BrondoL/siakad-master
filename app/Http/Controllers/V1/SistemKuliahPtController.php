@@ -109,6 +109,7 @@ class SistemKuliahPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_sistem"},
      *                 @OA\Property(property="id_sistem", type="integer", example=1),
      *             )
      *         )
@@ -257,6 +258,7 @@ class SistemKuliahPtController extends Controller
      *     @OA\Schema(
      *         schema="Sistem kuliah pt",
      *         @OA\Xml(name="Sistem kuliah pt"),
+     * required={"id_sistem"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="id_sistem", type="integer", example=1),

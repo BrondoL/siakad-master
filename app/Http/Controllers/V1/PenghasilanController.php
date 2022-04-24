@@ -111,6 +111,7 @@ class PenghasilanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_penghasilan", "nama_penghasilan", "poin_bidik_misi"},
      *                 @OA\Property(property="kode_penghasilan", type="integer", example=1),
      *                 @OA\Property(property="nama_penghasilan", type="string", example="3juta-4juta"),
      *                 @OA\Property(property="poin_bidik_misi", type="integer", example=2),
@@ -265,6 +266,7 @@ class PenghasilanController extends Controller
      *     @OA\Schema(
      *         schema="Penghasilan",
      *         @OA\Xml(name="Penghasilan"),
+     * required={"kode_penghasilan", "nama_penghasilan", "poin_bidik_misi"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_penghasilan", type="integer", example=1),
      *         @OA\Property(property="nama_penghasilan", type="string", example="3juta-4juta"),

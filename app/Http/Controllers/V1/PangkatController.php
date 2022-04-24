@@ -109,6 +109,7 @@ class PangkatController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_pangkat", "nama_pangkat"},
      *                 @OA\Property(property="kode_pangkat", type="string", example="1"),
      *                 @OA\Property(property="nama_pangkat", type="string", example="Lektor"),
      *             )
@@ -259,6 +260,7 @@ class PangkatController extends Controller
      *     @OA\Schema(
      *         schema="Pangkat",
      *         @OA\Xml(name="Pangkat"),
+     * required={"kode_pangkat", "nama_pangkat"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_pangkat", type="string", example="1"),
      *         @OA\Property(property="nama_pangkat", type="string", example="Lektor"),

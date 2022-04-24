@@ -22,7 +22,7 @@ class StatusMahasiswaOptController extends Controller
      *                      @OA\Property(property="id", type="integer", example=1),
      *                      @OA\Property(property="id_pt", type="integer", example=1),
      *                      @OA\Property(property="id_status", type="integer", example=1),
-     *                      @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                      @OA\Property(property="kode_emis", type="string", example="10"),
      *                      @OA\Property(property="is_diajukan", type="string", example="1"),
      *                  ),
      *              ),
@@ -68,7 +68,7 @@ class StatusMahasiswaOptController extends Controller
      *                      @OA\Property(property="id", type="integer", example=1),
      *                      @OA\Property(property="id_pt", type="integer", example=1),
      *                      @OA\Property(property="id_status", type="integer", example=1),
-     *                      @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                      @OA\Property(property="kode_emis", type="string", example="10"),
      *                      @OA\Property(property="is_diajukan", type="string", example="1"),
      *                  ),
      *              ),
@@ -113,8 +113,9 @@ class StatusMahasiswaOptController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_status", "is_diajukan"},
      *                 @OA\Property(property="id_status", type="integer", example=1),
-     *                 @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                 @OA\Property(property="kode_emis", type="string", example="10"),
      *                 @OA\Property(property="is_diajukan", type="string", example="1"),
      *             )
      *         )
@@ -128,7 +129,7 @@ class StatusMahasiswaOptController extends Controller
      *                      @OA\Property(property="id", type="integer", example=1),
      *                      @OA\Property(property="id_pt", type="integer", example=1),
      *                      @OA\Property(property="id_status", type="integer", example=1),
-     *                      @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                      @OA\Property(property="kode_emis", type="string", example="10"),
      *                      @OA\Property(property="is_diajukan", type="string", example="1"),
      *                  ),
      *              ),
@@ -175,7 +176,7 @@ class StatusMahasiswaOptController extends Controller
      *             mediaType="application/json",
      *             @OA\Schema(
      *                 @OA\Property(property="id_status", type="integer", example=1),
-     *                 @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                 @OA\Property(property="kode_emis", type="string", example="10"),
      *                 @OA\Property(property="is_diajukan", type="string", example="1"),
      *             )
      *         )
@@ -189,7 +190,7 @@ class StatusMahasiswaOptController extends Controller
      *                      @OA\Property(property="id", type="integer", example=1),
      *                      @OA\Property(property="id_pt", type="integer", example=1),
      *                      @OA\Property(property="id_status", type="integer", example=1),
-     *                      @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *                      @OA\Property(property="kode_emis", type="string", example="10"),
      *                      @OA\Property(property="is_diajukan", type="string", example="1"),
      *                  ),
      *              ),
@@ -269,10 +270,11 @@ class StatusMahasiswaOptController extends Controller
      *     @OA\Schema(
      *         schema="Status mahasiswa opt",
      *         @OA\Xml(name="Status mahasiswa opt"),
+     * required={"id_status", "is_diajukan"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="id_status", type="integer", example=1),
-     *         @OA\Property(property="kode_emis", type="string", example="10-1"),
+     *         @OA\Property(property="kode_emis", type="string", example="10"),
      *         @OA\Property(property="is_diajukan", type="string", example="1"),
      *     ),
      */

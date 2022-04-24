@@ -107,6 +107,7 @@ class YayasanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"nama_yayasan"},
      *                 @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *             )
      *         )
@@ -253,6 +254,7 @@ class YayasanController extends Controller
      *     @OA\Schema(
      *         schema="Yayasan",
      *         @OA\Xml(name="Yayasan"),
+     * required={"nama_yayasan"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama_yayasan", type="string", example="Insan Cendekia"),
      *     ),

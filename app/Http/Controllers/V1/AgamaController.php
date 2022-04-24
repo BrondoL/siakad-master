@@ -109,6 +109,7 @@ class AgamaController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     *                 required={"kode_agama","nama_agama"},
      *                 @OA\Property(property="kode_agama", type="integer", example=1),
      *                 @OA\Property(property="nama_agama", type="string", example="Islam"),
      *             )
@@ -259,6 +260,7 @@ class AgamaController extends Controller
      *     @OA\Schema(
      *         schema="Agama",
      *         @OA\Xml(name="Agama"),
+     *         required={"kode_agama","nama_agama"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_agama", type="integer", example=1),
      *         @OA\Property(property="nama_agama", type="string", example="Islam"),

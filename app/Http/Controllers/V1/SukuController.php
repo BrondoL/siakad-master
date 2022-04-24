@@ -109,6 +109,7 @@ class SukuController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_suku", "nama_suku"},
      *                 @OA\Property(property="kode_suku", type="integer", example=1),
      *                 @OA\Property(property="nama_suku", type="string", example="Lampung"),
      *             )
@@ -259,6 +260,7 @@ class SukuController extends Controller
      *     @OA\Schema(
      *         schema="Suku",
      *         @OA\Xml(name="Suku"),
+     * required={"kode_suku", "nama_suku"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_suku", type="integer", example=1),
      *         @OA\Property(property="nama_suku", type="string", example="Lampung"),

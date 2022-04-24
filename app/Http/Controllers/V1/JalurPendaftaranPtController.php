@@ -109,6 +109,7 @@ class JalurPendaftaranPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_jalur"},
      *                 @OA\Property(property="id_jalur", type="integer", example=1),
      *             )
      *         )
@@ -257,6 +258,7 @@ class JalurPendaftaranPtController extends Controller
      *     @OA\Schema(
      *         schema="Jalur pendaftaran pt",
      *         @OA\Xml(name="Jalur pendaftaran pt"),
+     * required={"id_jalur"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="id_jalur", type="integer", example=1),

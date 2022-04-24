@@ -117,6 +117,7 @@ class MahasiswaKeluarController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_mahasiswa_pt", "id_periode", "id_status"},
      *                 @OA\Property(property="id_mahasiswa_pt", type="integer", example=1),
      *                 @OA\Property(property="id_periode", type="integer", example=1),
      *                 @OA\Property(property="id_status", type="integer", example=1),

@@ -139,6 +139,7 @@ class PeriodeController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_periode","nama_periode","id_tahun_ajaran", "is_aktif"},
      *                 @OA\Property(property="kode_periode", type="string", example="20221"),
      *                 @OA\Property(property="nama_periode", type="string", example="2022 Gasal"),
      *                 @OA\Property(property="nama_singkat", type="string", example="2022 Gasal"),
@@ -347,6 +348,7 @@ class PeriodeController extends Controller
      *     @OA\Schema(
      *         schema="Periode",
      *         @OA\Xml(name="Periode"),
+     * required={"kode_periode","nama_periode","id_tahun_ajaran", "is_aktif"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="kode_periode", type="string", example="20221"),

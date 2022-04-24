@@ -123,6 +123,7 @@ class JabatanStrukturalController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_struktural", "nama_struktural"},
      *                 @OA\Property(property="kode_struktural", type="string", example="1"),
      *                 @OA\Property(property="nama_struktural", type="string", example="Rektor"),
      *                 @OA\Property(property="nama_singkat", type="string", example="Rektor"),
@@ -132,6 +133,8 @@ class JabatanStrukturalController extends Controller
      *                 @OA\Property(property="kode_eselon", type="string", example="1"),
      *                 @OA\Property(property="keterangan", type="string", example="Rektor Universitas"),
      *                 @OA\Property(property="is_pimpinan", type="string", example="1"),
+     *                 @OA\Property(property="info_left", type="string", example=1),
+     *                 @OA\Property(property="info_right", type="string", example=1),
      *             )
      *         )
      *     ),
@@ -204,6 +207,8 @@ class JabatanStrukturalController extends Controller
      *                 @OA\Property(property="kode_eselon", type="string", example="1"),
      *                 @OA\Property(property="keterangan", type="string", example="Rektor Universitas"),
      *                 @OA\Property(property="is_pimpinan", type="string", example="1"),
+     *                 @OA\Property(property="info_left", type="string", example=1),
+     *                 @OA\Property(property="info_right", type="string", example=1),
      *             )
      *         )
      *     ),
@@ -301,6 +306,7 @@ class JabatanStrukturalController extends Controller
      *     @OA\Schema(
      *         schema="Jabatan struktural",
      *         @OA\Xml(name="Jabatan struktural"),
+     * required={"kode_struktural", "nama_struktural"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_struktural", type="string", example="1"),
      *         @OA\Property(property="nama_struktural", type="string", example="Rektor"),
@@ -311,6 +317,8 @@ class JabatanStrukturalController extends Controller
      *         @OA\Property(property="kode_eselon", type="string", example="1"),
      *         @OA\Property(property="keterangan", type="string", example="Rektor Universitas"),
      *         @OA\Property(property="is_pimpinan", type="string", example="1"),
+     *         @OA\Property(property="info_left", type="string", example=1),
+     *         @OA\Property(property="info_right", type="string", example=1),
      *     ),
      */
 }

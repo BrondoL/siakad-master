@@ -113,6 +113,7 @@ class UniversitasController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_universitas", "nama_universitas"},
      *                 @OA\Property(property="kode_universitas", type="string", example="001001"),
      *                 @OA\Property(property="nama_universitas", type="string", example="Universitas Gadjah Mada"),
      *                 @OA\Property(property="alamat", type="string", example="Bulaksumur"),
@@ -272,6 +273,7 @@ class UniversitasController extends Controller
      *         schema="Universitas",
      *         @OA\Xml(name="Universitas"),
      *         @OA\Property(property="id", type="integer", example=1),
+     * required={"kode_universitas", "nama_universitas"},
      *         @OA\Property(property="kode_universitas", type="string", example="001001"),
      *         @OA\Property(property="nama_universitas", type="string", example="Universitas Gadjah Mada"),
      *         @OA\Property(property="alamat", type="string", example="Bulaksumur"),

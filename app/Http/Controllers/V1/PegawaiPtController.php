@@ -149,6 +149,7 @@ class PegawaiPtController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"id_pegawai", "nip", "tugas_luar", "is_dosen_luar", "is_pengasuh", "is_pembina_ukm", "is_pembina_ekskul", "is_valid_email"},
      *                 @OA\Property(property="id_pegawai", type="integer", example=1),
      *                 @OA\Property(property="nip", type="string", example="1817"),
      *                 @OA\Property(property="nidn", type="string", example="0006095903"),
@@ -379,6 +380,7 @@ class PegawaiPtController extends Controller
      *     @OA\Schema(
      *         schema="Pegawai pt",
      *         @OA\Xml(name="Pegawai pt"),
+     * required={"id_pegawai", "nip", "tugas_luar", "is_dosen_luar", "is_pengasuh", "is_pembina_ukm", "is_pembina_ekskul", "is_valid_email"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pegawai", type="integer", example=1),
      *         @OA\Property(property="nip", type="string", example="18170101"),

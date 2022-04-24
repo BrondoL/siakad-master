@@ -107,6 +107,7 @@ class AlmamaterController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     *                 required={"nama_almamater"},
      *                 @OA\Property(property="nama_almamater", type="string", example="L"),
      *             )
      *         )
@@ -253,6 +254,7 @@ class AlmamaterController extends Controller
      *     @OA\Schema(
      *         schema="Almamater",
      *         @OA\Xml(name="Almamater"),
+     *         required={"nama_almamater"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="nama_almamater", type="string", example="L"),
      *     ),

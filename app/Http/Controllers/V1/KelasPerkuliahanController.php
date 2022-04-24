@@ -111,6 +111,7 @@ class KelasPerkuliahanController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_kelas", "nama_kelas"},
      *                 @OA\Property(property="kode_kelas", type="string", example="1"),
      *                 @OA\Property(property="nama_kelas", type="string", example="A"),
      *             )
@@ -263,6 +264,7 @@ class KelasPerkuliahanController extends Controller
      *     @OA\Schema(
      *         schema="Kelas perkuliahan",
      *         @OA\Xml(name="Kelas perkuliahan"),
+     * required={"kode_kelas", "nama_kelas"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="id_pt", type="integer", example=1),
      *         @OA\Property(property="kode_kelas", type="string", example="1"),

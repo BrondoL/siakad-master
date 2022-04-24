@@ -111,6 +111,7 @@ class NegaraController extends Controller
      *         @OA\MediaType(
      *             mediaType="application/json",
      *             @OA\Schema(
+     * required={"kode_negara", "nama_kota"},
      *                 @OA\Property(property="kode_negara", type="string", example="1"),
      *                 @OA\Property(property="nama_kota", type="string", example="Indonesia"),
      *                 @OA\Property(property="kode_emis", type="string", example="01"),
@@ -265,6 +266,7 @@ class NegaraController extends Controller
      *     @OA\Schema(
      *         schema="Negara",
      *         @OA\Xml(name="Negara"),
+     * required={"kode_negara", "nama_kota"},
      *         @OA\Property(property="id", type="integer", example=1),
      *         @OA\Property(property="kode_negara", type="string", example="1"),
      *         @OA\Property(property="nama_kota", type="string", example="Indonesia"),
