@@ -240,4 +240,24 @@ class MahasiswaTest extends TestCase
             ]
         ]);
     }
+
+    // Validasi Token
+
+    public function test_get_with_invalid_token()
+    {
+        $response = $this->json("GET", "v1/minat", [], ["HTTP_Authorization" => "Bearer " . $this->invalidToken]);
+        $response->seeStatusCode(401);
+        $response->seeJsonStructure([
+            "error" => [
+                "code",
+                "message",
+            ],
+            "debug" => [
+                "*" => [
+                    "query",
+                    "time"
+                ]
+            ]
+        ]);
+    }
 }
