@@ -6,13 +6,9 @@ export const options = {
     stages: [
         { duration: "1m", target: 200 },
         { duration: "2m", target: 200 },
-        { duration: "1m", target: 500 },
-        { duration: "2m", target: 500 },
-        { duration: "1m", target: 800 },
-        { duration: "2m", target: 800 },
-        { duration: "1m", target: 1000 },
-        { duration: "2m", target: 1000 },
-        { duration: "3m", target: 0 },
+        { duration: "1m", target: 480 },
+        { duration: "2m", target: 480 },
+        { duration: "4m", target: 0 },
     ],
     thresholds: {
         http_req_failed: ["rate<0.01"], // http errors should be less than 1%
