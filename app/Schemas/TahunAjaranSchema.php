@@ -9,7 +9,7 @@ class TahunAjaranSchema extends Schema
 	protected static $fields = [
 		'id' => ['type' => 'integer', 'required' => true],
 		'id_pt' => ['type' => 'integer', 'required' => true],
-		'tahun_ajaran' => ['type' => 'string', 'length' => 4, 'required' => true],
+		'tahun_ajaran' => ['type' => 'integer', 'required' => true],
 		'nama_tahun_ajaran' => ['type' => 'string', 'length' => 50, 'required' => true],
 		'created_at' => ['type' => 'datetimetz', 'default' => 'CURRENT_TIMESTAMP'],
 		'created_by' => ['type' => 'integer'],

@@ -9,7 +9,7 @@ class TahunKurikulumSchema extends Schema
 	protected static $fields = [
 		'id' => ['type' => 'integer', 'required' => true],
 		'id_pt' => ['type' => 'integer', 'required' => true],
-		'tahun_kurikulum' => ['type' => 'string', 'length' => 4, 'required' => true],
+		'tahun_kurikulum' => ['type' => 'integer', 'required' => true],
 		'nama_kurikulum' => ['type' => 'string', 'length' => 100, 'required' => true],
 		'tgl_awal' => ['type' => 'date'],
 		'tgl_akhir' => ['type' => 'date'],

@@ -42,6 +42,8 @@ class Schema
 					$validation[] = 'max:' . $v['length'];
 				if ($v['type'] == 'integer' and substr($k, 0, 3) !== 'id_')
 					$validation[] = 'integer';
+				if ($v['type'] == 'decimal')
+					$validation[] = 'numeric';
 				if (substr($k, 0, 3) === 'is_')
 					$validation[] = 'boolean';
 			}
